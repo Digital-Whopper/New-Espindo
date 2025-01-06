@@ -23,7 +23,7 @@ const Page = () => {
 
   return (
     <>
-      <Image src="/images/contactbanner.png" width={1920} height={350} layout="responsive" alt="contact" />
+      <Image src="/contactbanner.png" width={1920} height={350} layout="responsive" alt="contact" />
       <div className="container mx-auto p-6">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">
           Feel Free To Contact us

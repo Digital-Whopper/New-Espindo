@@ -65,7 +65,7 @@
 //         <div className="swiper">
 //           <div className="swiper-wrapper">
 //             <div className="swiper-slide">
-//               <img src="https://www.espindotourandtravels.com/images/one-day-img00.png" />
+//               <img src="https://www.espindotourandtravels.com/one-day-img00.png" />
 //               <div className="cost">from $230 per group</div>
 //               <div className="overlay">
 //                 <h1>Walking Tour in Florence</h1>
@@ -77,7 +77,7 @@
 //               </div>
 //             </div>
 //             <div className="swiper-slide">
-//               <img src="https://www.espindotourandtravels.com/images/wildlife-img.jpeg" />
+//               <img src="https://www.espindotourandtravels.com/wildlife-img.jpeg" />
 //               <div className="cost">from $380 per group</div>
 //               <div className="overlay">
 //                 <h1>Edinburgh Guided Tour</h1>

@@ -9,7 +9,7 @@ const PackageSection = () => {
           <div
             className=" bg-cover pt-[20%] pb-[20%] bg-center  lg:w-[48%] w-[96%] mb-[2%] lg:mb-0"
             style={{
-              backgroundImage: "url('/images/images-1.jpg')",
+              backgroundImage: "url('/images-1.jpg')",
             }}
           >
             <div className=" flex flex-col items-start justify-left">
@@ -24,7 +24,7 @@ const PackageSection = () => {
           <div
             className="pt-[20%] pb-[20%] bg-cover bg-center lg:w-[48%] w-[96%] mb-[2%] lg:mb-0"
             style={{
-              backgroundImage: "url('/images/image-2.jpg')",
+              backgroundImage: "url('/image-2.jpg')",
             }}
           >
             <div className=" flex flex-col items-start justify-center">

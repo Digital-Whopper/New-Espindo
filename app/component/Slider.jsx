@@ -6,16 +6,16 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const imageData = {
   desktop: [
-    { id: 1, src: "/images/Banner_1.jpg", alt: "Banner Image 1" },
-    { id: 2, src: "/images/Banner_2.jpg", alt: "Banner Image 2" },
-    { id: 3, src: "/images/Banner_3.jpg", alt: "Banner Image 3" },
-    { id: 4, src: "/images/Banner_4.jpg", alt: "Banner Image 4" },
+    { id: 1, src: "/Banner_1.jpg", alt: "Banner Image 1" },
+    { id: 2, src: "/Banner_2.jpg", alt: "Banner Image 2" },
+    { id: 3, src: "/Banner_3.jpg", alt: "Banner Image 3" },
+    { id: 4, src: "/Banner_4.jpg", alt: "Banner Image 4" },
   ],
   mobile: [
-    { id: 5, src: "/images/Mobile_Banner_1.jpg", alt: "Mobile Banner Image 1" },
-    { id: 6, src: "/images/Mobile_Banner_2.jpg", alt: "Mobile Banner Image 2" },
-    { id: 7, src: "/images/Mobile_Banner_3.jpg", alt: "Mobile Banner Image 3" },
-    { id: 8, src: "/images/Mobile_Banner_4.jpg", alt: "Mobile Banner Image 4" },
+    { id: 5, src: "/Mobile_Banner_1.jpg", alt: "Mobile Banner Image 1" },
+    { id: 6, src: "/Mobile_Banner_2.jpg", alt: "Mobile Banner Image 2" },
+    { id: 7, src: "/Mobile_Banner_3.jpg", alt: "Mobile Banner Image 3" },
+    { id: 8, src: "/Mobile_Banner_4.jpg", alt: "Mobile Banner Image 4" },
   ],
 };
 

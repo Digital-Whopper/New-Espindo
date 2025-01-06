@@ -19,8 +19,8 @@ const Tours = () => {
 
   const datas = [
     {
-        imgSrc:"/images/nahar.jpg",
-        hoverImg:"/images/nahargarhview.jpg",
+        imgSrc:"/nahar.jpg",
+        hoverImg:"/nahargarhview.jpg",
         imgAlt:"Nahargarh",
         headingtext:"Nahargarh",
         para:"Nahargarh Fort, located in Jaipur, Rajasthan, India, is a historic fortification that forms part of the trio of forts alongside Amer Fort and Jaigarh Fort. Built in 1734 by Maharaja Sawai Jai Singh II, the founder of Jaipur, Nahargarh means Abode of Tigers. The fort was primarily constructed as a retreat and a defensive structure to protect Jaipur.",
@@ -28,64 +28,64 @@ const Tours = () => {
         link:"/tour"
     },
     {
-        imgSrc:"/images/patrika.jpg",
-        hoverImg:"/images/patrka.jpg",
+        imgSrc:"/patrika.jpg",
+        hoverImg:"/patrka.jpg",
         imgAlt:"Patrika",
         headingtext:"Patrika Gate",
         para:"Patrika Gate, located at Jawahar Circle in Jaipur, Rajasthan, is a vibrant and iconic architectural landmark. It serves as a grand entrance to Jawahar Circle Garden, which is among the largest circular parks in Asia. Patrika Gate has become a symbol of Jaipur&apos;s artistic and cultural richness, attracting visitors for its stunning aesthetics and Instagram-worthy charm.",
         
     },
     {
-        imgSrc:"/images/hawa-mahal-inside.jpg",
-        hoverImg:"/images/hnght.jpg",
+        imgSrc:"/hawa-mahal-inside.jpg",
+        hoverImg:"/hnght.jpg",
         imgAlt:"Hawa Mahal ",
         headingtext:"Hawa Mahal",
         para:"Hawa Mahal, also known as the Palace of Winds, is an iconic architectural marvel located in Jaipur, Rajasthan, India. Built in 1799 by Maharaja Sawai Pratap Singh, the structure is a fine example of Rajput architecture infused with Mughal influences. The Hawa Mahal is celebrated for its intricate design and cultural significance.",
         
     },
     {
-        imgSrc:"/images/jal-flower.jpg",
-        hoverImg:"/images/jhalmahal.jpg",
+        imgSrc:"/jal-flower.jpg",
+        hoverImg:"/jhalmahal.jpg",
         imgAlt:"Jal Mahal",
         headingtext:"Jal Mahal",
         para:"Jal Mahal, or the Water Palace, is a stunning architectural marvel located in the middle of Man Sagar Lake in Jaipur, Rajasthan, India. This palace is an iconic example of Rajputana architectural finesse and is renowned for its serene beauty and unique setting.",
         
     },
     {
-        imgSrc:"/images/jantar.jpg",
-        hoverImg:"/images/jantarmnt.jpg",
+        imgSrc:"/jantar.jpg",
+        hoverImg:"/jantarmnt.jpg",
         imgAlt:"Jantar Mantar",
         headingtext:"Jantar Mantar",
         para:"Jantar Mantar in Jaipur is a UNESCO World Heritage Site and one of the largest and best-preserved observatories in India. Built in the early 18th century by Maharaja Sawai Jai Singh II, the founder of Jaipur, this astronomical wonder showcases the scientific and architectural advancements of the time.",
         
     },
     {
-        imgSrc:"/images/birla.jpg",
-        hoverImg:"/images/birla-nightview.jpg",
+        imgSrc:"/birla.jpg",
+        hoverImg:"/birla-nightview.jpg",
         imgAlt:"Birla Mandir",
         headingtext:"Birla Mandir",
         para:"Birla Mandir, also known as the Laxmi Narayan Temple, is a prominent Hindu temple located in Jaipur, Rajasthan. Built by the Birla family in 1988, this temple is dedicated to Lord Vishnu (Narayan) and Goddess Laxmi, the deity of wealth and prosperity. It is renowned for its stunning architecture and serene ambiance.",
         
     },
     {
-        imgSrc:"/images/citypalace2.jpg",
-        hoverImg:"/images/citypalace.jpg",
+        imgSrc:"/citypalace2.jpg",
+        hoverImg:"/citypalace.jpg",
         imgAlt:"City Palace",
         headingtext:"City Palace",
         para:"City Palace in Jaipur is a magnificent royal complex that stands as a testament to Rajasthan&apos;s rich history, culture, and architectural grandeur. Located in the heart of Jaipur, this iconic landmark was built by Maharaja Sawai Jai Singh II in 1727 and served as the seat of the royal family of Jaipur.",
         
     },
     {
-        imgSrc:"/images/amer-view.jpg",
-        hoverImg:"/images/amer-light.jpg",
+        imgSrc:"/amer-view.jpg",
+        hoverImg:"/amer-light.jpg",
         imgAlt:"Amber Fort",
         headingtext:"Amber Fort",
         para:"Amber Fort (also spelled Amer Fort) is a majestic and historic fort located in Amer, a town approximately 11 km from Jaipur, Rajasthan. This UNESCO World Heritage Site is a prime example of Rajput architecture and a must-visit landmark for its grandeur, intricate designs, and historical significance.",
          
     },
     {
-        imgSrc:"/images/albert-night.jpg",
-        hoverImg:"/images/albert.jpg",
+        imgSrc:"/albert-night.jpg",
+        hoverImg:"/albert.jpg",
         imgAlt:"Albert Hall",
         headingtext:"Albert Hall",
         para:"Albert Hall Museum, located in Jaipur, Rajasthan, is one of the oldest museums in India and a prime example of Indo-Saracenic architecture. Built in 1876, it was originally intended as a concert hall but later converted into a museum to preserve Jaipur&apos;s cultural and artistic heritage. It is named after Prince Albert, the consort of Queen Victoria, who visited Jaipur during its construction.",

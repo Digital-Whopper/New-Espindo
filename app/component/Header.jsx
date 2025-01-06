@@ -127,7 +127,7 @@ const Header = () => {
             <nav className={`flex items-center p-2 scroll justify-between sm:justify-between md:justify-start lg:justify-start ${isSticky ? 'fixed top-0 w-full shadow-md z-50  bg-white ' : ''}`}>
                 <div className="w-1/4 flex">
                     <Link href="/" className="text-2xl font-bold">
-                        <Image src= "/images/espindo-new-logo.png" alt="Logo" width={160} height={40} quality={75} priority={true} />
+                        <Image src= "/espindo-new-logo.png" alt="Logo" width={160} height={40} quality={75} priority={true} />
                     </Link>
                 </div>
 
@@ -155,7 +155,7 @@ const Header = () => {
             {isMobileMenuOpen && (
                 <div className="fixed top-0 right-0 h-full w-9/12 bg-white shadow-lg z-20 p-4 transition-transform">
                     <div className="pb-5 border-b">
-                    <Image src="/images/espindo-new-logo.png"  width={80} height={20} alt="Mobile Logo" />
+                    <Image src="/espindo-new-logo.png"  width={80} height={20} alt="Mobile Logo" />
                         <button onClick={toggleMobileMenu} className="absolute top-4 right-4 text-xl font-semibold text-gray-600 focus:outline-none">
                             X
                         </button>

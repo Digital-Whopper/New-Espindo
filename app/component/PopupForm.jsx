@@ -45,7 +45,7 @@ const PopupForm = () => {
 
             {/* Image Section */}
             <div className="mb-4 w-full lg:w-1/2">
-              <Image src="/images/jantar.jpg" alt="images" width={200} height={200}
+              <Image src="/jantar.jpg" alt="images" width={200} height={200}
                 className="rounded-md w-full h-full object-cover"
               />
             </div>

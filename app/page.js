@@ -20,7 +20,7 @@ export default function Home() {
   const items = [
     {
       id: 1,
-      imageSrc: "/images/LEOPARD.webp",
+      imageSrc: "/LEOPARD.webp",
       title: "Jhalana Leopard-Safari",
  
       badge: "5D Sambhar Lake",
@@ -32,7 +32,7 @@ export default function Home() {
     // camel-safari.webp
     {
       id: 2,
-      imageSrc: "/images/Camel.jpg",
+      imageSrc: "/Camel.jpg",
       title: "Camel-Safari",
 
       badge: "5D Sambhar Lake",
@@ -43,7 +43,7 @@ export default function Home() {
     },
     {
       id: 3,
-      imageSrc: "/images/el-safari.webp",
+      imageSrc: "/el-safari.webp",
       title: "Elephant-Safari",
      
       badge: "5D Sambhar Lake",
@@ -54,7 +54,7 @@ export default function Home() {
     },
     {
       id: 4,
-      imageSrc: "/images/sawai.webp",
+      imageSrc: "/sawai.webp",
       title: "Ranthambore",
      
       badge: "5D Sambhar Lake",

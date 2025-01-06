@@ -3,25 +3,25 @@ import { useState, useEffect } from "react";
 import Image from 'next/image';
 const people = [
   {
-    img: "/images/review1.jpg",
+    img: "/review1.jpg",
     name: "Peter Doe",
     job: "Product Manager",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quod eius recusandae officia voluptas sint deserunt dicta nihil nam omnis.",
   },
   {
-    img: "/images/review1.jpg",
+    img: "/review1.jpg",
     name: "Susan Doe",
     job: "Front-end Dev",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quod eius recusandae officia voluptas sint deserunt dicta nihil nam omnis.",
   },
   {
-    img: "/images/review1.jpg",
+    img: "/review1.jpg",
     name: "Jack Doe",
     job: "Fullstack Dev",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quod eius recusandae officia voluptas sint deserunt dicta nihil nam omnis.",
   },
   {
-    img: "/images/review1.jpg",
+    img: "/review1.jpg",
     name: "Anna Doe",
     job: "Backend Dev",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quod eius recusandae officia voluptas sint deserunt dicta nihil nam omnis.",

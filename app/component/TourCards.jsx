@@ -64,7 +64,7 @@ const TourCards = () => {
           <SwiperSlide>
             <div className="swiper-slide">
               {/* <img
-                src="https://www.espindotourandtravels.com/images/one-day-img00.png"
+                src="https://www.espindotourandtravels.com/one-day-img00.png"
                 alt="Walking Tour in Florence"
                 width={600}
                 height={400}
@@ -83,7 +83,7 @@ const TourCards = () => {
           <SwiperSlide>
             <div className="swiper-slide">
               <Image
-                src="/images/nahar.jpg"
+                src="/nahar.jpg"
                 alt="Edinburgh Guided Tour"
                 width={600}
                 height={400}

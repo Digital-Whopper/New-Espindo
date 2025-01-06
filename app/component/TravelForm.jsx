@@ -62,7 +62,7 @@ const TravelFormPopup = () => {
             <Image
             width={400}
             height={400}
-              src="/images/hawa-mahal-inside.jpg"
+              src="/hawa-mahal-inside.jpg"
               alt="Form Image"
               className="object-cover w-full h-full"
             />

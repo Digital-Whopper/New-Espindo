@@ -16,7 +16,7 @@ const CubeSlider = () => {
   const slides = [
     {
       id: 1,
-      imageUrl: "/images/1.jpg", 
+      imageUrl: "/1.jpg", 
       cost: "from Rs. 2300 ",
       title: "Jaipur Taxi",
       description:
@@ -24,7 +24,7 @@ const CubeSlider = () => {
     },
     {
       id: 2,
-      imageUrl: "/images/2.jpg", // Use the imported image directly
+      imageUrl: "/2.jpg", // Use the imported image directly
       cost: "from Rs. 3800",
       title: "Jaipur Taxi",
       description:

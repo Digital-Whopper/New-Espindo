@@ -9,21 +9,21 @@ const page = () => {
         {
           id: 1,
           title: "Hawa-Mahal",
-          imgUrl: "/images/product1.jpg",
+          imgUrl: "//product1.jpg",
           description: "Hawa Mahal, also known as the Palace of Winds, is an iconic architectural marvel located in Jaipur, Rajasthan",
           text:"India. Built in 1799 by Maharaja Sawai Pratap Singh, the structure is a fine example of Rajput architecture infused with Mughal influences. The Hawa Mahal is celebrated for its intricate design and cultural significance."
         },
         {
             id: 2,
             title: "City Palace",
-            imgUrl: "/images/product2.jpg",
+            imgUrl: "//product2.jpg",
             description: "City Palace in Jaipur is a magnificent royal complex that stands as a testament to Rajasthan&apos;s rich history",
             text:"culture, and architectural grandeur. Located in the heart of Jaipur, this iconic landmark was built by Maharaja Sawai Jai Singh II in 1727 and served as the seat of the royal family of Jaipur."
           },
           {
             id: 3,
             title: "Jantar Mantar",
-            imgUrl: "/images/product3.jpg",
+            imgUrl: "//product3.jpg",
             description: "City Palace in Jaipur is a magnificent royal complex that stands as a testament to Rajasthan&apos;s rich history, culture, and architectural grandeur. Located in the heart of Jaipur",
             text:"this iconic landmark was built by Maharaja Sawai Jai Singh II in 1727 and served as the seat of the royal family of Jaipur."
           },
@@ -34,7 +34,7 @@ const page = () => {
       const items = [
         {
           id: 1,
-          imageSrc: "/images/LEOPARD.webp",
+          imageSrc: "//LEOPARD.webp",
           title: "Jhalana Leopard-Safari",
      
           badge: "5D Sambhar Lake",
@@ -45,7 +45,7 @@ const page = () => {
         },
         {
           id: 2,
-          imageSrc: "/images/camel-safari.webp",
+          imageSrc: "//camel-safari.webp",
           title: "Camel-Safari",
     
           badge: "5D Sambhar Lake",
@@ -56,7 +56,7 @@ const page = () => {
         },
         {
           id: 3,
-          imageSrc: "/images/el-safari.webp",
+          imageSrc: "//el-safari.webp",
           title: "Elephant-Safari",
          
           badge: "5D Sambhar Lake",
@@ -67,7 +67,7 @@ const page = () => {
         },
         {
           id: 4,
-          imageSrc: "/images/sawai.webp",
+          imageSrc: "//sawai.webp",
           title: "Ranthambore",
          
           badge: "5D Sambhar Lake",
@@ -82,8 +82,8 @@ const page = () => {
     <div>
 
 <SafariSection    
-      backgroundImage="/images/1day-d.webp"
-      mobileImage="/images/1daytour-m.webp"  
+      backgroundImage="//1day-d.webp"
+      mobileImage="//1daytour-m.webp"  
      
       />
         <ContentPopup  

@@ -18,8 +18,8 @@ const page = () => {
     <div>
            
       <SafariSection    
-      backgroundImage="/images/leopardsafari-d.webp"
-      mobileImage="/images/leopardsafari-m.webp"     
+      backgroundImage="/leopardsafari-d.webp"
+      mobileImage="/leopardsafari-m.webp"     
       />
         <section className="container-class">
           <ContentPopup  
@@ -41,7 +41,7 @@ const page = () => {
 
 </div>} />
         <ContentBlock
-        imageSrc="images/LEOPARD.webp"
+        imageSrc="/LEOPARD.webp"
         oneHeading="How to Enjoy a Safari"
         text="Spotting a leopard is a thrilling experience, but it requires patience. Stay calm and wait quietly, increasing your chances of sighting one. Binoculars are invaluable for spotting leopards hidden behind trees or in distant areas.
 Waterholes are hotspots, as leopards frequently visit them to drink. Trust your guide&apos;s expertise—they know the best locations for sightings. Following their advice is essential to ensure a memorable safari experience.
@@ -51,7 +51,7 @@ With these tips, you can make your Leopard Safari Jaipur truly unforgettable. We
 
     
       <ContentBlock
-        imageSrc="images/LEOPARD.jpg"
+        imageSrc="/LEOPARD.jpg"
         twoHeading="Things to Keep in Mind"
         text="There are a few crucial points to consider before embarking on the safari. Timing is key, as it greatly influences the chances of spotting leopards. Safaris are conducted twice daily—once in the morning and again in the evening.
 Morning safaris are highly recommended since leopards are more active during this time. Be sure to book your Leopard Safari Jaipur well in advance to avoid missing out, especially as spaces fill up quickly. The ideal time to visit is between October and March.

@@ -10,28 +10,28 @@ const DestinationSection = () => {
     {
       id: 1,
       title: "Elephant Safari",
-      imgUrl: "/images/el-amer.jpg",
+      imgUrl: "/el-amer.jpg",
       description: "Experience the snow-covered landscapes. This is more text while adding text so that I can clearly see the Read More button. Let&apos;s see how it works with more content being added to the description text. The snow-covered landscapes are serene and beautiful, perfect for a winter vacation.",
       showMore: false,  // Initially hide the rest of the description
     },
     {
       id: 2,
       title: "Ranthmbor",
-      imgUrl: "/images/Bagh.jpg",
+      imgUrl: "/Bagh.jpg",
       description: "Experience the snow-covered landscapes. This is more text while adding text so that I can clearly see the Read More button. Beaches are relaxing, and the warm sun makes for a perfect getaway to a tropical paradise.",
       showMore: false,
     },
     {
       id: 3,
       title: "Leopard Safari",
-      imgUrl: "/images/safari.jpg",
+      imgUrl: "/safari.jpg",
       description: "Experience the snow-covered landscapes. This is more text while adding text so that I can clearly see the Read More button. Deserts are vast and unique, offering an experience of tranquility and beauty.",
       showMore: false,
     },
     {
       id: 4,
       title: "Camel-Safari",
-      imgUrl: "/images/pixelcut-export.jpg",
+      imgUrl: "/pixelcut-export.jpg",
       description: "Experience the snow-covered landscapes. This is more text while adding text so that I can clearly see the Read More button. Mountains offer breathtaking views and hiking experiences that leave you feeling accomplished and at peace.",
       showMore: false,
     },

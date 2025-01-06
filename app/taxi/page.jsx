@@ -21,7 +21,7 @@ const page = () => {
   const items = [
     {
       id: 1,
-      imageSrc: "/images/LEOPARD.webp",
+      imageSrc: "/LEOPARD.webp",
       title: "Jhalana Leopard-Safari",
       description: "Tour Type: Customizable 9 hours",
       badge: "5D Sambhar Lake",
@@ -32,7 +32,7 @@ const page = () => {
     },
     {
       id: 2,
-      imageSrc: "/images/camel-safari.webp",
+      imageSrc: "/camel-safari.webp",
       title: "Camel-Safari",
       description: "Tour Type: Customizable 9 hours",
       badge: "5D Sambhar Lake",
@@ -43,7 +43,7 @@ const page = () => {
     },
     {
       id: 3,
-      imageSrc: "/images/el-safari.webp",
+      imageSrc: "/el-safari.webp",
       title: "Elephant-Safari",
       description: "Tour Type: Customizable 9 hours",
       badge: "5D Sambhar Lake",
@@ -54,7 +54,7 @@ const page = () => {
     },
     {
       id: 4,
-      imageSrc: "/images/sawai.webp",
+      imageSrc: "/sawai.webp",
       title: "Ranthambore",
       description: "Tour Type: Customizable 9 hours",
       badge: "5D Sambhar Lake",
@@ -71,8 +71,8 @@ const page = () => {
       <section className="max-w-full " 
      >
       <SafariSection    
-     backgroundImage="/images/taxi-d.webp"
-     mobileImage="/images/taxi-m.webp" 
+     backgroundImage="/taxi-d.webp"
+     mobileImage="/taxi-m.webp" 
      
       />
        
