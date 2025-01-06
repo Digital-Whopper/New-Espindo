@@ -4,10 +4,14 @@
 // export default nextConfig;
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // images: {
+  // output: 'standalone',
+  // experimental: {
+  //   appDir: true, 
+  // },
+    images: {
       
-    //   domains: ['www.thrillophilia.com/'], // Add the external image domain here
-    // },
+      domains: ['/'], // Add the external image domain here
+    },
   };
   
   export default nextConfig;

@@ -4,27 +4,18 @@ import { useState, useEffect, useCallback,useRef } from "react";
 import Image from "next/image";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
-import image1 from "/images/Banner_1.jpg";
-import image2 from "/images/Banner_2.jpg";
-import image3 from "/images/Banner_3.jpg";
-import image4 from "/images/Banner_4.jpg";
-import image5 from "/images/Mobile_Banner_1.jpg";
-import image6 from "/images/Mobile_Banner_2.jpg";
-import image7 from "/images/Mobile_Banner_3.jpg";
-import image8 from "/images/Mobile_Banner_4.jpg";
-
 const imageData = {
   desktop: [
-    { id: 1, src: image1, alt: "Banner Image 1" },
-    { id: 2, src: image2, alt: "Banner Image 2" },
-    { id: 3, src: image3, alt: "Banner Image 3" },
-    { id: 4, src: image4, alt: "Banner Image 4" },
+    { id: 1, src: "/images/Banner_1.jpg", alt: "Banner Image 1" },
+    { id: 2, src: "/images/Banner_2.jpg", alt: "Banner Image 2" },
+    { id: 3, src: "/images/Banner_3.jpg", alt: "Banner Image 3" },
+    { id: 4, src: "/images/Banner_4.jpg", alt: "Banner Image 4" },
   ],
   mobile: [
-    { id: 5, src: image5, alt: "Mobile Banner Image 1" },
-    { id: 6, src: image6, alt: "Mobile Banner Image 2" },
-    { id: 7, src: image7, alt: "Mobile Banner Image 3" },
-    { id: 8, src: image8, alt: "Mobile Banner Image 4" },
+    { id: 5, src: "/images/Mobile_Banner_1.jpg", alt: "Mobile Banner Image 1" },
+    { id: 6, src: "/images/Mobile_Banner_2.jpg", alt: "Mobile Banner Image 2" },
+    { id: 7, src: "/images/Mobile_Banner_3.jpg", alt: "Mobile Banner Image 3" },
+    { id: 8, src: "/images/Mobile_Banner_4.jpg", alt: "Mobile Banner Image 4" },
   ],
 };
 

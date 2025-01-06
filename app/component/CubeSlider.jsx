@@ -1,6 +1,6 @@
 "use client"; // For Next.js 13.4
 
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCube, Autoplay } from "swiper";
 import "swiper/css";

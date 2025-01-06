@@ -83,7 +83,7 @@ const TourCards = () => {
           <SwiperSlide>
             <div className="swiper-slide">
               <Image
-                src="https://www.espindotourandtravels.com/images/wildlife-img.jpeg"
+                src="/images/nahar.jpg"
                 alt="Edinburgh Guided Tour"
                 width={600}
                 height={400}
