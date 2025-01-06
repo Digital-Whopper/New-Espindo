@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import Slider from './component/Slider'
+// import Slider from './component/Slider'
 import HeadingComponent from './component/HeadingComponent'
 import VideoSlider from './component/VideoSlider'
 import ReviewSlider from './component/ReviewSlider'
@@ -10,6 +10,7 @@ import Blog from './component/Blog'
 import CubeSlider from './component/CubeSlider'
 import Tour from './component/Tour'
 import ContentPopup from './component/ContentPopup'
+import HeroSection from './component/HeroSection';
 
 
 
@@ -67,9 +68,9 @@ export default function Home() {
   ];
   return (
   <>
+<HeroSection/>
 
-
-  <Slider/>
+  {/* <Slider/> */}
   <ContentPopup
   headingcomp="How to Reach Jaipur?"
   

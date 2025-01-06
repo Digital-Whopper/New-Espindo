@@ -5,13 +5,13 @@ import { useState } from "react";
 const videos = [
   {
     id: 1,
-    src: "/Amer_Fort.mp4",
+    src: "/video1.mp4",
 
     type: "mp4", 
   },
   {
     id: 2,
-    src: "/Video-920.mp4",
+    src: "/video2.mp4",
 
     type: "mp4",
   },

@@ -15,7 +15,10 @@ const ProductSlider = ({ items }) => {
 
   return (
     <section className="z-0 relative">
-      <Carousel responsive={responsive}>
+      <Carousel responsive={responsive}  autoPlay={true}
+          autoPlaySpeed={2000}
+          infinite={true}
+          pauseOnHover={false}  >
         {items.map((item) => (
           <div
             key={item.id}
