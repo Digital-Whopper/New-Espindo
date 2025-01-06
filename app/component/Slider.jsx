@@ -4,14 +4,14 @@ import { useState, useEffect, useCallback,useRef } from "react";
 import Image from "next/image";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
-import image1 from "@/public/images/Banner_1.jpg";
-import image2 from "@/public/images/Banner_2.jpg";
-import image3 from "@/public/images/Banner_3.jpg";
-import image4 from "@/public/images/Banner_4.jpg";
-import image5 from "@/public/images/Mobile_Banner_1.jpg";
-import image6 from "@/public/images/Mobile_Banner_2.jpg";
-import image7 from "@/public/images/Mobile_Banner_3.jpg";
-import image8 from "@/public/images/Mobile_Banner_4.jpg";
+import image1 from "/images/Banner_1.jpg";
+import image2 from "/images/Banner_2.jpg";
+import image3 from "/images/Banner_3.jpg";
+import image4 from "/images/Banner_4.jpg";
+import image5 from "/images/Mobile_Banner_1.jpg";
+import image6 from "/images/Mobile_Banner_2.jpg";
+import image7 from "/images/Mobile_Banner_3.jpg";
+import image8 from "/images/Mobile_Banner_4.jpg";
 
 const imageData = {
   desktop: [
