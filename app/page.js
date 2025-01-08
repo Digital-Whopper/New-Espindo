@@ -110,7 +110,7 @@ These adventures will add excitement to your trip and create unforgettable memor
   
  
   <li className="mt-2"><h3 className="font-bold">City Palace:</h3> Renowned for its Rajput architecture, City Palace reflects the royal essence of Jaipur.</li>
-  <li className="mt-2"><h3 className="font-bold">Amer Fort:</h3> Amer Fort, a UNESCO World Heritage site, includes the Sheesh Mahal within its complex. Its famous light-and-sound show features lights turning on and off at various intervals.</li>
+  <li className="mt-2"><h3 className="font-bold">Amber Fort:</h3> Amer Fort, a UNESCO World Heritage site, includes the Sheesh Mahal within its complex. Its famous light-and-sound show features lights turning on and off at various intervals.</li>
   <li className="mt-2"><h3 className="font-bold">Hawa Mahal:</h3> Known for its unique architecture and excellent ventilation, Hawa Mahal is an iconic landmark.</li>
   <li className="mt-2"><h3 className="font-bold">Jantar Mantar:</h3> Also a UNESCO World Heritage site, Jantar Mantar features instruments used to measure time and boasts impressive architecture.</li>
   <li className="mt-2"><h3 className="font-bold">Jal Mahal:</h3> While it lacks personal chambers, Jal Mahal&apos;s unique design and surrounding water create a breathtaking view.</li>
