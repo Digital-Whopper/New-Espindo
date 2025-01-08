@@ -16,7 +16,7 @@ const CubeSlider = () => {
   const slides = [
     {
       id: 1,
-      imageUrl: "/texi-1.png", 
+      imageUrl: "/texi-11.png", 
       cost: "from Rs. 2700 ",
       title: "Jaipur Taxi",
       description:
@@ -24,7 +24,7 @@ const CubeSlider = () => {
     },
     {
       id: 2,
-      imageUrl: "/text-2.jpeg", // Use the imported image directly
+      imageUrl: "/texi-12.png", // Use the imported image directly
       cost: "from Rs. 3200",
       title: "Khatu Shyamji Taxi From Jaipur",
       description:
@@ -32,7 +32,7 @@ const CubeSlider = () => {
     },
     {
       id: 3,
-      imageUrl: "/2.jpg", // Use the imported image directly
+      imageUrl: "/texi-3.png", // Use the imported image directly
       cost: "from Rs. 4000",
       title: "Jaipur to Delhi | Ajmer | Jodhpur | Udaipur etc. Taxi Available",
       description:
