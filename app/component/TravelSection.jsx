@@ -55,13 +55,13 @@ const TravelSection = ({ travelData,tourDetails ,trips, iconName, highlights ,si
       
     ))}
 </div>
-<p className="text-xs sm:text-sm md:text-base mt-6 text-justify">Immerse yourself in the vibrant hues and rich heritage of Jaipur with our private day tour. Embark on a captivating journey through the Pink City's iconic landmarks, including the majestic Amber Fort, the ornate City Palace, the enchanting Hawa Mahal, and the historic Jantar Mantar. Marvel at the intricate craftsmanship of Jaipur's architecture, steeped in centuries of royal legacy. With a knowledgeable guide by your side, delve into the city's fascinating history and culture. Book your Jaipur Private Day Tour now for an unforgettable experience in India's cultural gem.</p>
+<p className="text-xs sm:text-sm md:text-base mt-6 text-justify">Immerse yourself in the vibrant hues and rich heritage of Jaipur with our private day tour. Embark on a captivating journey through the Pink City&apos;s iconic landmarks, including the majestic Amber Fort, the ornate City Palace, the enchanting Hawa Mahal, and the historic Jantar Mantar. Marvel at the intricate craftsmanship of Jaipur&apos;s architecture, steeped in centuries of royal legacy. With a knowledgeable guide by your side, delve into the city&apos;s fascinating history and culture. Book your Jaipur Private Day Tour now for an unforgettable experience in India&apos;s cultural gem.</p>
 
 
 <div className="sightseeing-incl-excl mt-8">
   <div className="flex flex-wrap justify-between">
 <div className="included-left md:w-[55%] lg:w-[45%]">
-<h2 className="font-semibold text-lg sm:text-xl">What's Included</h2>
+<h2 className="font-semibold text-lg sm:text-xl">What&apos;s Included</h2>
 <ul  className="mt-3 ">
       {sIncluded?.map((data) => (
       <li key={data.id} className="flex items-center mt-2"><span>{data.icon}</span> <span className="text-xs sm:text-sm md:text-base pl-2"> {data.para} </span></li>
@@ -71,7 +71,7 @@ const TravelSection = ({ travelData,tourDetails ,trips, iconName, highlights ,si
 </div>
 
 <div className="excluded-right md:w-[35%] lg:w-[40%] mt-6 md:mt-0">
-<h2 className="font-semibold text-lg sm:text-xl ">What's Excluded</h2>
+<h2 className="font-semibold text-lg sm:text-xl ">What&apos;s Excluded</h2>
 <ul  className="mt-3 ">
       {sExcluded?.map((data) => (
       <li key={data.id} className="flex items-center mt-2"><span>{data.icon}</span> <span className="text-xs sm:text-sm md:text-base pl-2"> {data.para} </span></li>
