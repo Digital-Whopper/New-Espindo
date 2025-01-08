@@ -84,6 +84,7 @@ const TravelSection = ({ travelData,tourDetails ,trips, iconName, highlights ,si
  </div>
       </div>
 <div className="icon-detail-right w-full sm:w-[40%]">
+<Link href="https://wa.me/+919828372744">  
 <Image
             src="/button_image.png"
             alt="enquiry"
@@ -93,6 +94,7 @@ const TravelSection = ({ travelData,tourDetails ,trips, iconName, highlights ,si
             priority={true}
             quality={75}
           />
+          </Link>
 </div>
       </div>
      
@@ -121,7 +123,7 @@ const TravelSection = ({ travelData,tourDetails ,trips, iconName, highlights ,si
       
         <div className="right sm:w-48 ">
         {item.imgUrl ? (
-        <Link href="https://wa.me/+919828372744">
+        
         
         <Image
             src={item.imgUrl} 
@@ -134,7 +136,7 @@ const TravelSection = ({ travelData,tourDetails ,trips, iconName, highlights ,si
             className="mt-2 hidden sm:block" 
           />
         
-        </Link>
+         
         
         ) : null}
         </div>
