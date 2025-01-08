@@ -107,17 +107,18 @@ These adventures will add excitement to your trip and create unforgettable memor
 </p>
 <h2 className="font-bold mt-4 sm:text-base text-sm">Jaipur&apos;s Must-Visit Gems </h2>
 <ul>
-  <li className="mt-2"><h3 className="font-bold">World Trade Park (WTP):</h3> WTP is Jaipur&apos;s modern shopping and entertainment destination. Consider including it in your Jaipur shopping tour.</li>
+  
+ 
   <li className="mt-2"><h3 className="font-bold">City Palace:</h3> Renowned for its Rajput architecture, City Palace reflects the royal essence of Jaipur.</li>
-  <li className="mt-2"><h3 className="font-bold">GT Mall:</h3> For a mix of local and modern shopping, visit GT Mall. Popular among tourists, it offers a variety of stores.</li>
-  <li className="mt-2"><h3 className="font-bold">City Park:</h3> Ideal for relaxing evenings and picnics, this tranquil spot provides a peaceful retreat in the bustling city.</li>
   <li className="mt-2"><h3 className="font-bold">Amer Fort:</h3> Amer Fort, a UNESCO World Heritage site, includes the Sheesh Mahal within its complex. Its famous light-and-sound show features lights turning on and off at various intervals.</li>
   <li className="mt-2"><h3 className="font-bold">Hawa Mahal:</h3> Known for its unique architecture and excellent ventilation, Hawa Mahal is an iconic landmark.</li>
   <li className="mt-2"><h3 className="font-bold">Jantar Mantar:</h3> Also a UNESCO World Heritage site, Jantar Mantar features instruments used to measure time and boasts impressive architecture.</li>
-  <li className="mt-2"><h3 className="font-bold">Albert Hall Museum:</h3> Rajasthan&apos;s first art museum, the Albert Hall Museum, houses an exceptional collection.</li>
   <li className="mt-2"><h3 className="font-bold">Jal Mahal:</h3> While it lacks personal chambers, Jal Mahal&apos;s unique design and surrounding water create a breathtaking view.</li>
+  <li className="mt-2"><h3 className="font-bold">Albert Hall Museum:</h3> Rajasthan&apos;s first art museum, the Albert Hall Museum, houses an exceptional collection.</li>
   <li className="mt-2"><h3 className="font-bold">Nahargarh Fort: </h3> Located on the majestic Aravalli Hills, Nahargarh Fort serves as a retreat destination. </li>
-
+  <li className="mt-2"><h3 className="font-bold">World Trade Park (WTP):</h3> WTP is Jaipur&apos;s modern shopping and entertainment destination. Consider including it in your Jaipur shopping tour.</li>
+  <li className="mt-2"><h3 className="font-bold">GT Mall:</h3> For a mix of local and modern shopping, visit GT Mall. Popular among tourists, it offers a variety of stores.</li>
+  <li className="mt-2"><h3 className="font-bold">City Park:</h3> Ideal for relaxing evenings and picnics, this tranquil spot provides a peaceful retreat in the bustling city.</li>
 </ul>
 <h2 className="font-bold mt-4 sm:text-base text-sm">Jaipur&apos;s Shopping Delights </h2>
 <p className="mt-2">Shopping in Jaipur is an exciting blend of tradition and modernity, showcasing the city&apos;s rich craftsmanship and gems. Known as the &quot;Gemstone Capital of India,&quot; Jaipur offers exquisite gemstone jewelry.</p>
@@ -131,14 +132,16 @@ These adventures will add excitement to your trip and create unforgettable memor
 </ul>
 <h3 className="font-bold mt-2">Shopping Tips:</h3> <p className="m-0">Bargain in local markets and carry cash for small purchases. Listen to travel agents for advice on the best markets.</p>
 </div>}/>
+
+<Tour/>
+
+
 <HeadingComponent heading="Our Safari Places"
 para="Exploring New Horizons Together"
 italic="Visit:"
 />
 
 <ProductSlider items={items} />
-<Tour/>
-
 <HeadingComponent 
 italic="Discover:"
 heading="The Jaipur With Our Exclusive Tour"

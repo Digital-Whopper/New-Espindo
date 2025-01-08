@@ -14,6 +14,7 @@ import { IoIosMail } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+// import { MdKeyboardArrowDown } from "react-icons/md";
 
 const Header = () => {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -119,7 +120,7 @@ const Header = () => {
                       <span className='pt-1 mx-1'><IoMdCall /> </span>   <span>+91 9828372744</span>
                     </Link>
                     <Link href="#" className='flex text-[16px] text-white'>
-                    <span className='pt-1 mx-1'><IoIosMail /> </span>  <span>espindotourandtravels@gmail.com</span>
+                    <span className='pt-1 mx-1'><IoIosMail /> </span>  <span>espindotour@gmail.com </span>
                     </Link>
                 </div>
             </div>

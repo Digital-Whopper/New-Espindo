@@ -16,19 +16,27 @@ const CubeSlider = () => {
   const slides = [
     {
       id: 1,
-      imageUrl: "/1.jpg", 
-      cost: "from Rs. 2300 ",
+      imageUrl: "/texi-1.png", 
+      cost: "from Rs. 2700 ",
       title: "Jaipur Taxi",
       description:
         "Whether you&apos;re traveling solo or with family, our professional drivers, who know the city well, ensure a smooth and enjoyable experience.",
     },
     {
       id: 2,
-      imageUrl: "/2.jpg", // Use the imported image directly
-      cost: "from Rs. 3800",
-      title: "Jaipur Taxi",
+      imageUrl: "/text-2.jpeg", // Use the imported image directly
+      cost: "from Rs. 3200",
+      title: "Khatu Shyamji Taxi From Jaipur",
       description:
         "Planning to visit the Khatu Shyam Ji temple during your Jaipur trip? Our taxi services are the best option for a flexible and enjoyable journey.",
+    },
+    {
+      id: 3,
+      imageUrl: "/2.jpg", // Use the imported image directly
+      cost: "from Rs. 4000",
+      title: "Jaipur to Delhi | Ajmer | Jodhpur | Udaipur etc. Taxi Available",
+      description:
+        "Planning to visit Jaipur to Delhi | Ajmer | Jodhpur | Udaipur etc. during your Jaipur trip? Our taxi services are the best option for a flexible and enjoyable journey.",
     },
   ];
 
@@ -55,8 +63,8 @@ const CubeSlider = () => {
           loop={true}
           speed={1000}
           autoplay={{
-            delay: 500,
-            pauseOnMouseEnter: true,
+            delay: 200,
+            pauseOnMouseEnter: false,
           }}
           cubeEffect={{
             shadow: false,
@@ -77,7 +85,9 @@ const CubeSlider = () => {
                 quality={75}
                // Optional, use fill layout if you need responsive images
               />
-              <div className="cost">{slide.cost}</div>
+              <div className="flex ">
+                <div className="absolute top-0 left-1.5 bg-[url('/offer.png')] w-[50px] h-[50px] bg-cover bg-center"></div>
+                <p className="cost">{slide.cost}</p></div>
               <div className="overlay">
                 <h1>{slide.title}</h1>
                 <p>{slide.description}</p>

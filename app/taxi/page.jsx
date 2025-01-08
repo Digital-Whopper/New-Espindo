@@ -1,12 +1,14 @@
 // pages/taxi.js
 'use client';
 import Image from 'next/image';
+import { IoCall } from "react-icons/io5";
 import { FaTaxi } from "react-icons/fa";
 import { ImOffice } from "react-icons/im";
 import { MdEmojiTransportation } from "react-icons/md";
 import ContentBlock from '../component/ContentBlock';
 import SafariSection from '../component/SafariSection';
 import ContentPopup from '../component/ContentPopup';
+
 
 const ServiceCard = ({ icon, title, description }) => (
   <div className="lg:w-[25%] sm:w-[90%] flex flex-col items-center bg-[#f9f9ff] p-[30px] hover:text-white hover:bg-[#f4839e] transition-all duration-300 ease-in-out mt-6 lg:mt-0">
@@ -65,8 +67,118 @@ const page = () => {
     },
   
   ];
+  const transfers = [
+    {
+      heading: "Jaipur Local Transfers",
+     
+      tableData: [
+        {
+          car: "Sedan Car Toyota Etios / Swift Dezire / 3 seats",
+          price: "Rs. 3,000",
+          km: 80,
+          hours: "8 hours",
+        },
+        {
+          car: "SUV Innova Crysta / 6 seats",
+          price: "Rs. 4,500",
+          km: 80,
+          hours: "8 hours",
+        },
+        {
+          car: "Tempo Traveller / 12 seats",
+          price: "Rs. 6,500",
+          km: 80,
+          hours: "8 hours",
+        },
+        {
+          car: "Mini Coach / 18 seats",
+          price: "Rs. 13,500",
+          km: 80,
+          hours: "8 hours",
+        },
+        {
+          car: "Coach / 35 seats",
+          price: "Rs. 19,000",
+          km: 80,
+          hours: "8 hours",
+        },
+      ],
+    },
+    {
+      heading: "Local Sightseeing in Jaipur", 
+     
+      tableData: [
+        {
+          car: "Sedan Car Toyota Etios / Swift Dezire / 3 seats",
+          price: "Rs. 3,000",
+          km: 80,
+          hours: "8 hours",
+        },
+        {
+          car: "SUV Innova Crysta / 6 seats",
+          price: "Rs. 4,500",
+          km: 80,
+          hours: "8 hours",
+        },
+        {
+          car: "Tempo Traveller / 12 seats",
+          price: "Rs. 6,500",
+          km: 80,
+          hours: "8 hours",
+        },
+        {
+          car: "Mini Coach / 18 seats",
+          price: "Rs. 13,500",
+          km: 80,
+          hours: "8 hours",
+        },
+        {
+          car: "Coach / 35 seats",
+          price: "Rs. 19,000",
+          km: 80,
+          hours: "8 hours",
+        },
+      ],
+    },
+    {
+      heading: "Luxury Car and Taxi Hire in Jaipur", 
+     
+      tableData: [
+        {
+          car: "Sedan Car Toyota Etios / Swift Dezire / 3 seats",
+          price: "Rs. 3,000",
+          km: 80,
+          hours: "8 hours",
+        },
+        {
+          car: "SUV Innova Crysta / 6 seats",
+          price: "Rs. 4,500",
+          km: 80,
+          hours: "8 hours",
+        },
+        {
+          car: "Tempo Traveller / 12 seats",
+          price: "Rs. 6,500",
+          km: 80,
+          hours: "8 hours",
+        },
+        {
+          car: "Mini Coach / 18 seats",
+          price: "Rs. 13,500",
+          km: 80,
+          hours: "8 hours",
+        },
+        {
+          car: "Coach / 35 seats",
+          price: "Rs. 19,000",
+          km: 80,
+          hours: "8 hours",
+        },
+      ],
+    },
+  ];
   return (
-    <div>
+    <div className="bg-[#eeeeee]" >
       {/* Home Page Section */}
       <section className="max-w-full " 
      >
@@ -89,32 +201,76 @@ Espindo offers Jaipur sightseeing taxi services with cooperative and helpful dri
 <p className="mt-2">Jaipur boasts some of the most stunning sunset views, making it a paradise for photographers and travelers seeking tranquil moments. If you enjoy sunsets, there are specific locations in Jaipur worth visiting.</p>
 <p className="mt-2">For a magical view, head to Amer Fort. Its peaceful ambiance is perfect for relaxing and unwinding. The golden rays illuminate the fort&apos;s walls as the sun sets, creating a mesmerizing sight. Our Jaipur sightseeing taxi offers a comfortable and reliable way to enjoy these moments.</p>
 <p className="mt-2">These locations significantly enhance Jaipur&apos;s beauty during sunsets.</p>
+<h2 className="font-bold sm:text-base text-sm">Discover Jaipur: Reliable Sightseeing Taxi Service</h2>
+<p className="mt-2">Whether you&apos;re traveling solo or with family, our professional drivers, who know the city well, ensure a smooth and enjoyable experience. Our Jaipur travel agent team is always ready to assist, making our Jaipur sightseeing taxi service an excellent choice for a comfortable and memorable trip. With our service, you can cover all the significant spots in Jaipur. We guarantee the reliable taxi experience you&apos;re looking for. This sightseeing taxi will make your trip both memorable and enjoyable.</p>
+<h2 className="font-bold sm:text-base text-sm">Jaipur to Khatu Shyam Ji Taxi: Convenient and Reliable</h2>
+<p className="mt-2">Planning to visit the Khatu Shyam Ji temple during your Jaipur trip? Our taxi services are the best option for a flexible and enjoyable journey. Our Jaipur to Khatu Shyam Ji taxi service is a convenient choice. We provide experienced drivers who are familiar with the routes, including shortcuts and traffic-free roads, ensuring a smooth trip. Traveling by taxi offers unmatched freedom and comfort. You can choose your pickup time, especially when traveling with family. Taxis eliminate the stress of public transport schedules. Our Jaipur to Khatu Shyam Ji taxi services are designed for reliability and safety, with well-maintained vehicles to make your journey pleasant. With us, you can relax and enjoy the scenic drive through Rajasthan. Our easy booking system, including pre-booking options, ensures your ride is ready when you are. The Khatu Shyam Ji temple is a must-visit destination, known for its rich history and tranquil atmosphere. Dedicated to Lord Krishna, it&apos;s a spiritual highlight of any trip.</p>
 
 </div>} />
       </section>
 
-   
+   <div className="w-[100%] sm:w-[100%] md:w-[95%]  lg:w-[80%] mx-auto flex flex-wrap bg-white p-5">
+<div className="content  w-[100%] sm:w-[100%] md:w-[60%]  lg:w-[70%]">
+  <h2 className='text-4xl font-semibold	mb-3'>Jaipur Car Rental</h2>
+  <h3 className='md:text-xl  lg:text-2xl font-semibold mb-1 text-[#e03f64]'>Best offer for Jaipur Full Day Sightseeing.</h3>
+  <h3 className='md:text-xl  lg:text-2xl font-semibold mb-1 text-[#e03f64]'>Deluxe Car Rs.2600 + Guide Rs.800 : Rs. 3400/-</h3>
+  <h3 className='md:text-xl  lg:text-2xl font-semibold mb-1 text-[#e03f64]'>Now Rs.2999/- Only | No hidden costs Call: +91-9828372744  </h3>
+
+  <div className="space-y-12">
+  {transfers.map((transfer, index) => (
+    <div key={index}>
+      {/* Conditionally render heading only if available */}
+      {transfer.heading && (
+        <h3 className="flex items-center text-[#213d44] font-semibold text-lg mt-12 mb-5">
+          <span className='flex mr-2 items-center'><FaTaxi /></span> {transfer.heading}
+        </h3>
+      )}
+
+      {/* Table rendering with Tailwind CSS */}
+      <table className="min-w-full table-auto border-collapse bg-white">
+        <thead>
+          <tr>
+            <th className="bg-gray-100 px-4 py-2 text-left text-sm font-semibold">Car / Taxi</th>
+            <th className="bg-gray-100 px-4 py-2 text-left text-sm font-semibold">Price</th>
+            <th className="bg-gray-100 px-4 py-2 text-left text-sm font-semibold">Km</th>
+            <th className="bg-gray-100 px-4 py-2 text-left text-sm font-semibold">Hours</th>
+          </tr>
+        </thead>
+        <tbody>
+          {transfer.tableData.map((row, rowIndex) => (
+            <tr key={rowIndex} className={rowIndex % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+              <td className="px-4 py-2 text-sm">{row.car}</td>
+              <td className="px-4 py-2 text-sm font-semibold">{row.price}</td>
+              <td className="px-4 py-2 text-sm">{row.km}</td>
+              <td className="px-4 py-2 text-sm">{row.hours}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  ))}
+</div>
+
+</div>
+<div className="tour_right head_right tour_help tour-ri-com w-[100%] sm:w-[100%] md:w-[40%]  lg:w-[30%]">
+  <div className='w-[100%] sm:w-[100%] md:w-[70%]  lg:w-[70%] border border-[#e2e2e2] m-auto'>
+	<h3 className='font-semibold p-[10px] bg-[#253d52] text-white'>Help &amp; Support</h3>
+						<div className="tour_help_1 text-center">
+							<h4 className="text-center text-xl text-[#e03f64] font-semibold mt-2">Call Us Now</h4>
+							<h4 className="text-center text-xl font-semibold my-2 flex"> <span className='flex m-auto items-center'><IoCall />+91-9828372744</span></h4> </div>
+
+  </div>
+					
+					</div>
+
+
+
+          
+   </div>
  
       
-      <ContentBlock
-        imageSrc="https://img.freepik.com/free-photo/close-up-shot-taxi-sign-warm-colours-sunset-with-bokeh-lights-background_181624-54985.jpg?t=st=1733126581~exp=1733130181~hmac=6d32e3dc7406a98d90fc3498d68aa8ce69301cbc8e20ab34a678a929d84024fa&w=900"
-        oneHeading="Discover Jaipur: Reliable Sightseeing Taxi Service"
-        text="Whether you&apos;re traveling solo or with family, our professional drivers, who know the city well, ensure a smooth and enjoyable experience. Our Jaipur travel agent team is always ready to assist, making our Jaipur sightseeing taxi service an excellent choice for a comfortable and memorable trip.
-With our service, you can cover all the significant spots in Jaipur. We guarantee the reliable taxi experience you&apos;re looking for. This sightseeing taxi will make your trip both memorable and enjoyable."
-      />
-
-   
-      <ContentBlock
-        imageSrc="https://img.freepik.com/free-photo/close-up-shot-taxi-sign-warm-colours-sunset-with-bokeh-lights-background_181624-54985.jpg?t=st=1733126581~exp=1733130181~hmac=6d32e3dc7406a98d90fc3498d68aa8ce69301cbc8e20ab34a678a929d84024fa&w=900"
-        oneHeading="Jaipur to Khatu Shyam Ji Taxi: Convenient and Reliable"
-        text="Planning to visit the Khatu Shyam Ji temple during your Jaipur trip? Our taxi services are the best option for a flexible and enjoyable journey.
-Our Jaipur to Khatu Shyam Ji taxi service is a convenient choice. We provide experienced drivers who are familiar with the routes, including shortcuts and traffic-free roads, ensuring a smooth trip. Traveling by taxi offers unmatched freedom and comfort.
-You can choose your pickup time, especially when traveling with family. Taxis eliminate the stress of public transport schedules. Our Jaipur to Khatu Shyam Ji taxi services are designed for reliability and safety, with well-maintained vehicles to make your journey pleasant.
-With us, you can relax and enjoy the scenic drive through Rajasthan. Our easy booking system, including pre-booking options, ensures your ride is ready when you are. The Khatu Shyam Ji temple is a must-visit destination, known for its rich history and tranquil atmosphere. Dedicated to Lord Krishna, it&apos;s a spiritual highlight of any trip."
-        reverse={true} 
-      />
-      {/* Service Cards Section */}
-      <section className="max-w-full text-center">
+{/*       
+      <section className="w-[70%] m-auto text-center">
         <h2 className="sm:text-3xl text-2xl font-semibold">What Services we offer to our clients</h2>
         <p className="text-sm text-[#777777] pt-4">Eco-Friendly Travel for the Eco-Conscious Rider.</p>
       </section>
@@ -138,7 +294,7 @@ With us, you can relax and enjoy the scenic drive through Rajasthan. Our easy bo
             description="Usage of the Internet is becoming more common due to rapid advancement of technology and power."
           />
         </div>
-      </section>
+      </section> */}
 
       {/* Support Section */}
       <section className="max-w-full">
@@ -152,7 +308,7 @@ With us, you can relax and enjoy the scenic drive through Rajasthan. Our easy bo
               </p>
             </div>
             <div className="lg:w-[19%] sm:w-[80%] w-[90%] lg:pt-10 font-semibold md:text-sm text-xs">
-              <a href='https://web.whatsapp.com/send?phone=+1234567890' className="bg-[#fff] sm:px-6 px-4 py-2">REACH OUR SUPPORT TEAM</a>
+              <a href='https://web.whatsapp.com/send?phone=+1234567890' className="bg-[#fff] sm:px-6 px-4 py-2">REACH US TO BOOK TEAM</a>
             </div>
           </div>
         </div>

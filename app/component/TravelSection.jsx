@@ -1,148 +1,174 @@
 "use client";
 import { useState } from "react";
 import Image from 'next/image';
-const TravelSection = ({ travelData, readMoreContent }) => {
-  const [isReadMoreVisible, setReadMoreVisible] = useState(false);
-  const [isFormVisible, setFormVisible] = useState(false);
+import { LuClock8 } from "react-icons/lu";
+import { VscCircleSmall } from "react-icons/vsc";
+import { IoMapOutline } from "react-icons/io5";
+import Link from "next/link";
+
+
+
+const TravelSection = ({ travelData,tourDetails ,trips, iconName, highlights ,sightseeingIconName,sIncluded,sExcluded}) => {
+ 
 
   return (
-    <div>
+    <div className="my-10">
       {/* Travel Sections */}
-      {travelData.map((item) => (
-        <section key={item.id} className="max-w-[100%] sm:max-w-[70%] md:max-w-[70%] lg:max-w-[70%] mx-auto p-4">
-          <div className="img-div relative">
-            <h2 className="lg:text-5xl md:text-3xl text-2xl font-semibold pb-4 text-[#f4839d] pl-2">
-              {String(item.id).padStart(2, "0")}{" "}
-              <span className="text-black lg:text-3xl md:text-2xl text-xl">{item.title}</span>
-            </h2>
-            <div className="absolute lg:top-[3%] md:top-0 top-[-2px] right-[1%]">
-              <button
-                onClick={() => setFormVisible(true)}
-                className="enquirybtn bg-[#f4839d] text-white lg:text-md md:text-sm text-xs lg:px-4 px-2 py-2"
-              >
-                SEND ENQUIRY
-              </button>
-            </div>
-            <Image width={1300} height={375} layout="responsive" src={item.imgUrl} alt="img" className="lg:h-80 w-full" />
-          </div>
-          {/* Paras Section */}
-          <div className="para-div pt-4">
-            <p className="sm:text-base text-sm">{item.description}</p>
+      <section className="container sm:shadow-lg mx-auto p-6 sm:max-w-[90%]  ">
 
-            {/* Read More Section */}
-            <div
-              className={`read-div pt-0 transition-opacity duration-1000 ease-in-out sm:text-base text-sm ${
-                isReadMoreVisible ? "opacity-100" : "opacity-0 hidden"
-              }`}
-            >
-              {travelData.map((item, index) => (
-                <p key={index}>{item.text}</p>
-              ))}
-            </div>
+      <div className="flex justify-around flex-col-reverse sm:flex-row">
+      <div className="icon-detail-left w-full  sm:w-[90%]">
+        <ul  className="mt-3 ">
+      {iconName?.map((data) => (
+      <li key={data.id} className="flex items-center mt-2"><span>{data.icon}</span> <span className="text-xs sm:text-sm md:text-base pl-2"> {data.name} </span></li>
+      
+    ))}
+    </ul>
+    <div className="highlights mt-6">
+<h2 className="font-semibold text-lg sm:text-xl">Highlights</h2>
+<ul className="highlights-ul ">
+{highlights?.map((data) => (
+  <li key={data.id}  className=" text-xs sm:text-sm md:text-base mt-2"><span className="font-semibold">{data.id}.</span><span>{data.icon}</span> {data.para}</li> 
+))}
+</ul>
+  </div>
+  <div className="sightseeing-main mt-6">
+ 
 
-            {/* Read More Button */}
-            <div className="pt-0">
-              <button
-                onClick={() => setReadMoreVisible(!isReadMoreVisible)}
-                className="btn text-[#e03f64] lg:text-base text-sm "
-              >
-                {isReadMoreVisible ? "Read Less" : "Read More>>"}
-              </button>
-            </div>
-          </div>
-        </section>
-      ))}
+ <h2 className="font-semibold text-lg sm:text-2xl">Jaipur Sightseeing Tour</h2>
+ <ul className="sightseeing-ul font-semibold">
+  <li className=" text-xs text-sm sm:text-base md:text-lg mt-4">Jaipur City Tour #JT-001D</li>  
+  <li className=" text-xs  text-sm sm:text-base md:text-lg mt-2">Duration: 9 Hours</li>  
+  <li className=" text-xs  text-sm sm:text-base md:text-lg mt-2">Cost: ₹ 2,500/- per person Tax inclusive</li>  
+</ul>
 
-      {/* Enquiry Form */}
-      {isFormVisible && (
-        <div className="form-div fixed inset-0 w-full opacity-100 transition-opacity duration-1000 ease-in-out z-10">
-          <div className="relative inset-0 flex justify-center items-center w-full h-full bg-[rgb(0_0_0_/37%)]">
-            <form className="relative bg-white p-6 rounded-lg shadow-lg z-70 sm:w-[55%] md:w-[55%] lg:[55%] w-[90%]">
-              <div className="lg:pb-4 pb-2">
-                <h3 className="lg:text-2xl md:text-xl">Superb Choice!</h3>
-              </div>
-              <div className="lg:mb-5 lg:flex lg:justify-between">
-                <input
-                  type="text"
-                  placeholder="Your Name"
-                  className="lg:w-[42%] p-2 text-gray-900 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 w-full lg:mb-0 mb-2"
-                />
-                <input
-                  type="email"
-                  placeholder="Your Email"
-                  className="lg:w-[55%] p-2 text-gray-900 border border-gray-300 rounded text-sm focus:ring-blue-500 focus:border-blue-500 focus:outline-none focus:ring-1 w-full lg:mb-0 mb-2"
-                />
-              </div>
 
-              <div className="lg:mb-5 md:flex md:justify-between mb-2">
-                <input
-                  type="tel"
-                  placeholder="Phone"
-                  className="md:w-[32%] w-full mb-2 md:mb-0 p-2 text-gray-900 border border-gray-300 rounded-lg text-sm focus:ring-blue-500 focus:border-blue-500 focus:outline-none focus:ring-1"
-                />
-                <input
-                  type="date"
-                  placeholder="Date of Travel"
-                  className="md:w-[31%] w-[49%] p-2 text-gray-900 border border-gray-300 rounded-lg text-sm focus:ring-blue-500 focus:border-blue-500 focus:outline-none focus:ring-1"
-                />
-                <input
-                  type="number"
-                  placeholder="Traveller Count"
-                  className="md:w-[31%] sm:w-[50%] w-[49%] p-2 text-gray-900 border border-gray-300 rounded-lg text-sm focus:ring-blue-500 focus:border-blue-500 focus:outline-none focus:ring-1"
-                />
-              </div>
 
-              <div className="lg:mb-5 mb-2">
-                <textarea
-                  rows="3"
-                  placeholder="Message"
-                  className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg text-sm focus:ring-blue-500 focus:border-blue-500 focus:outline-none focus:ring-1 resize-none"
-                ></textarea>
-              </div>
+</div>
+  <div className="sightseeing-icons mt-4">
+<div  className="flex items-center "><span><IoMapOutline />
+</span> <span className="text-xs sm:text-sm md:text-base pl-2"> Jaipur </span></div>
+<div className="flex flex-wrap gap-2">
+{sightseeingIconName?.map((data) => (
+      <div key={data.id} className="flex items-center mt-4  lg:w-1/4  "><span>{data.icon}
+</span> <span className="text-xs sm:text-sm md:text-base pl-2"> {data.detail} </span></div>
+      
+    ))}
+</div>
+<p className="text-xs sm:text-sm md:text-base mt-6 text-justify">Immerse yourself in the vibrant hues and rich heritage of Jaipur with our private day tour. Embark on a captivating journey through the Pink City's iconic landmarks, including the majestic Amber Fort, the ornate City Palace, the enchanting Hawa Mahal, and the historic Jantar Mantar. Marvel at the intricate craftsmanship of Jaipur's architecture, steeped in centuries of royal legacy. With a knowledgeable guide by your side, delve into the city's fascinating history and culture. Book your Jaipur Private Day Tour now for an unforgettable experience in India's cultural gem.</p>
 
-              <div className="submit w-full sm:flex sm:items-center sm:justify-between mb-3">
-                <div className="sm:w-[60%] w-[98%] text-sm">
-                  <ul>
-                    <li className="pl-4 before:content-['✔'] before:text-green-500">
-                      We assure the privacy of your contact.
-                    </li>
-                    <li className="pl-4 before:content-['✔'] before:text-green-500">
-                      This data will only be used by our team to contact you.
-                    </li>
-                  </ul>
-                </div>
-                <div className="sm:w-[35%] w-[98%] sm:mt-0 mt-4">
-                  <button className="w-full bg-[#f4839d] rounded py-2 text-sm text-white">
-                    Send Me Details
-                  </button>
-                </div>
-              </div>
 
-              <div className="absolute top-[10px] sm:left-[95%] left-[91%] close">
-                <button
-                  onClick={() => setFormVisible(false)}
-                  className="text-[#f4839d] hover:text-gray-700"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M6 18L18 6M6 6l12 12"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </form>
+<div className="sightseeing-incl-excl mt-8">
+  <div className="flex flex-wrap justify-between">
+<div className="included-left md:w-[55%] lg:w-[45%]">
+<h2 className="font-semibold text-lg sm:text-xl">What's Included</h2>
+<ul  className="mt-3 ">
+      {sIncluded?.map((data) => (
+      <li key={data.id} className="flex items-center mt-2"><span>{data.icon}</span> <span className="text-xs sm:text-sm md:text-base pl-2"> {data.para} </span></li>
+      
+    ))}
+    </ul>
+</div>
+
+<div className="excluded-right md:w-[35%] lg:w-[40%] mt-6 md:mt-0">
+<h2 className="font-semibold text-lg sm:text-xl ">What's Excluded</h2>
+<ul  className="mt-3 ">
+      {sExcluded?.map((data) => (
+      <li key={data.id} className="flex items-center mt-2"><span>{data.icon}</span> <span className="text-xs sm:text-sm md:text-base pl-2"> {data.para} </span></li>
+      
+    ))}
+    </ul>
+</div>
+</div>
+</div>
+ </div>
+      </div>
+<div className="icon-detail-right w-full sm:w-[40%]">
+<Image
+            src="/button_image.png"
+            alt="enquiry"
+            layout="responsive"
+            width={250} 
+            height={100}
+            priority={true}
+            quality={75}
+          />
+</div>
+      </div>
+     
+
+
+
+ 
+
+      <h2 className="font-semibold text-lg sm:text-2xl mt-10">Tour Plan</h2>
+      <div className="time-main relative mt-4">
+      <div className="absolute top-12 left-1 sm:left-2  h-[96%] border-l-2 border-[#E03F64]"></div>
+
+    {travelData.map((item) => (
+      <div key={item.id} className="flex items-start mb-10 pl-8 sm:pl-10 relative justify-evenly">
+         <div className="absolute top-9 left-[-6px] w-6 h-6 sm:w-8 sm:h-8 bg-black border-2 sm:border-4 border-[#E03F64] rounded-full flex items-center justify-center text-white">
+          <LuClock8 className="w-3 h-3 sm:w-4 sm:h-4"/> 
+        </div>
+    
+        <div className="left w-full sm:w-[70%] pr-0 sm:pr-4">
+          <h2 className="font-semibold mt-2 uppercase text-sm sm:text-base md:text-md underline decoration-[#E03F64] decoration-2">{item.title}</h2>      
+           <h3 className="font-semibold mt-2 text-xs sm:text-sm md:text-base">{item.time}</h3>
+          <div className="mt-2 text-xs sm:text-sm md:text-base">
+            <p className="text-justify">{item.paraone}</p>
           </div>
         </div>
-      )}
+      
+        <div className="right sm:w-48 ">
+        {item.imgUrl ? (
+        <Link href="https://wa.me/+919828372744">
+        
+        <Image
+            src={item.imgUrl} 
+            alt={item.title} 
+            layout="intrinsic"
+            width={250} 
+            height={200}
+            priority={true}
+            quality={75}
+            className="mt-2 hidden sm:block" 
+          />
+        
+        </Link>
+        
+        ) : null}
+        </div>
+      </div>
+    ))}
+  </div>
+
+  {tourDetails?.map((data) => (
+  <div key={data.id} className="tour-details mt-6">
+    <h2 className="font-semibold text-lg sm:text-xl">{data.title}</h2>
+    <ul className="mt-3">
+      {['lineone', 'linetwo', 'linethree', 'linefour', 'linefive', 'linesix', 'lineseven', 'lineeight', 'linenine', 'lineten']
+        .map((lineKey) => data[lineKey] && (
+          <li key={lineKey} className="flex items-center">
+           <span> <VscCircleSmall className="text-2xl" /></span>
+            <span className="text-xs sm:text-sm md:text-base "> {data[lineKey]} </span>
+          </li>
+        ))}
+    </ul>
+  </div>
+))}
+
+
+{trips?.map((data) => (
+<div key={data.id} className="tour-details my-4">
+{data.title && (
+      <h2 className="font-semibold text-lg sm:text-xl mt-6">{data.title}</h2>
+    )}
+<p className="mt-2 text-xs sm:text-sm md:text-base text-justify">{data.desc}</p>
+</div>
+))}
+
+</section>
+
     </div>
   );
 };

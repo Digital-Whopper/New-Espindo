@@ -47,7 +47,7 @@ const HeroSection = () => {
                   src={item.srcMobile}
                   alt={item.alt}
                   width={1440}
-                  height={2160}
+                  height={2000}
                   className="banner_img"
                 />
               </div>

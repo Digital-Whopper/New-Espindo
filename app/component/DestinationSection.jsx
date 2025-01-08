@@ -16,7 +16,7 @@ const DestinationSection = () => {
     },
     {
       id: 2,
-      title: "Ranthmbor",
+      title: "Ranthmbore",
       imgUrl: "/Bagh.jpg",
       description: "Experience the snow-covered landscapes. This is more text while adding text so that I can clearly see the Read More button. Beaches are relaxing, and the warm sun makes for a perfect getaway to a tropical paradise.",
       showMore: false,

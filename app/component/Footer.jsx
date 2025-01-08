@@ -2,6 +2,7 @@
 import React from "react";
 import WhatsAppButton from "./WhatsAppButton";
 import Link from "next/link";
+import FloatingCallButton from "./FloatingCallButton";
 
 const Footer = () => {
   const placesToVisit = ["leopardsafari", "onedaytour", "twodaytour"];
@@ -28,11 +29,11 @@ const Footer = () => {
           <div className="mt-6 text-white mt-0">
             <p>Address: Plot No. 17 Siddharth Nagar, Near Jawahar Circle, Jagatpura, Jaipur Rajasthan Pin 302017</p>
             <p className="mt-4">Ph no: +91-9828372744</p>
-            <p className="mt-4">E-mail: espindotourandtravels@gmail.com</p>
+            <p className="mt-4">E-mail: espindotour@gmail.com</p>
           </div>
         </div>
       </div>
-  <WhatsAppButton/>
+ <FloatingCallButton/>
     </div>
   );
 };

@@ -17,12 +17,12 @@ const videos = [
   },
   {
     id: 3,
-    src: "https://cdn.shopify.com/s/files/1/0589/4733/8371/files/whatmore_tn_d07a5b3c-16aa-4f7b-9271-5842fbcc66b6.mp4?v=1729082066",
+    src: "/video3.mp4",
    
     type: "mp4",
   },  {
     id: 4,
-    src: "https://cdn.shopify.com/s/files/1/0589/4733/8371/files/whatmore_tn_56ea2c6c-87fd-4edf-bd8a-8df5a7bc47df.mp4?v=1729075328",
+    src: "/Amer_Fort.mp4",
 
     type: "mp4", 
   },
