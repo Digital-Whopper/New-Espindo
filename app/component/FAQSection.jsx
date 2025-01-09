@@ -16,7 +16,7 @@ const faqs = [
   {
     question: "Is Jaipur safe for tourists?",
     answer:
-      "Jaipur is generally a safe city for tourists. However, like any other tourist destination, it’s advisable to take basic precautions, such as being cautious with your belongings and avoiding isolated areas at night.",
+      "Jaipur is generally a safe city for tourists. However, like any other tourist destination, it&apos;s advisable to take basic precautions, such as being cautious with your belongings and avoiding isolated areas at night.",
   },
 
 ];

@@ -147,7 +147,7 @@ const page = () => {
         {
           id:4,
           icon:<TbXboxXFilled />  ,
-          para:"Driver’s tips & gratuities (recommended)" 
+          para:"Driver&apos;s tips & gratuities (recommended)" 
         }
       
       ]
@@ -238,7 +238,7 @@ const page = () => {
             lineone:"Monuments Entrance Fees / Camera Fees",
             linetwo:"Meals & Other Expenses",
             linethree:"Air /Train / Bus Fare",
-            linefour:"Driver’s and Guide's Tips",
+            linefour:"Driver&apos;s and Guide&apos;s Tips",
             linefive:"Entry/Admission - Hawa Mahal - Palace of Wind",
             linesix:"Entry/Admission - City Palace of Jaipur",
             lineseven:"Entry/Admission - Jantar Mantar - Jaipur",
@@ -253,16 +253,16 @@ const page = () => {
           {
             id:1,
             title:"What to expect",
-            desc:"After hotel pickup in a comfortable, air-conditioned vehicle, enjoy the scenic ride to Jal Mahal, known as Jaipur’s floating palace. The 18th-century royal Maharajah residence on Man Sagar Lake makes for an unforgettable photo."
+            desc:"After hotel pickup in a comfortable, air-conditioned vehicle, enjoy the scenic ride to Jal Mahal, known as Jaipur&apos;s floating palace. The 18th-century royal Maharajah residence on Man Sagar Lake makes for an unforgettable photo."
           },
           {
             id:2,
-            desc:"Learn about the history of Jaipur, a royal capital founded in 1727. Get a look at the city’s trademark downtown and discover how it came to be painted pink. Visit Hawa Mahal, or Palace of Winds, with its beehive-shaped facade—once a purdah screen for Rajput women. See Jantar Mantar, a centuries-old astronomical observatory, and the City Palace, home to Rajasthan's royal family, before drop-off to your hotel after a full day of sightseeing.."
+            desc:"Learn about the history of Jaipur, a royal capital founded in 1727. Get a look at the city&apos;s trademark downtown and discover how it came to be painted pink. Visit Hawa Mahal, or Palace of Winds, with its beehive-shaped facade—once a purdah screen for Rajput women. See Jantar Mantar, a centuries-old astronomical observatory, and the City Palace, home to Rajasthan's royal family, before drop-off to your hotel after a full day of sightseeing.."
           },
     {
       id:3,
       title:"Help",
-      desc:"If you have questions about this tour or need help making your booking, we’d be happy to help. Just call the number below and reference the product code: 4"
+      desc:"If you have questions about this tour or need help making your booking, we&apos;d be happy to help. Just call the number below and reference the product code: 4"
     },
     {
       id:4,
