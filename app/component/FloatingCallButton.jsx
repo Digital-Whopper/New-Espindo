@@ -26,7 +26,7 @@ const FloatingCallButton = () => {
 
   return (
     <div>
-      <section className='fixed right-8  bottom-4 flex flex-col gap-2 flex-wrap z-[99999999]'>
+      <section className='fixed right-4  bottom-4 flex flex-col gap-2 flex-wrap z-[99999999]'>
         {icons.map((icon, index) => (
           <div
             key={index}

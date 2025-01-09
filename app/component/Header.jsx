@@ -70,16 +70,23 @@ const Header = () => {
         <>
             {Object.entries(menuItems).map(([key, item]) => (
                 <div key={key} className={`relative ${isMobile ? 'mt-2 p-2' : 'group md:px-5'}`}>
-                    <a
+                    <Link
                         href={item.link}
                         className="flex md:flex-col lg:flex-col items-center font-semibold p-2 rounded text-[#e03f64] lg:text-lg md:text-xs"
                         onClick={(e) => {
-                            e.preventDefault(); // Prevent default behavior for handling logic manually
-                            handleLinkClick(!!item.subMenu, key);
+                            if (item.subMenu) {
+                                e.preventDefault(); // Prevent default only for items with submenus
+                                handleLinkClick(!!item.subMenu, key);
+                            } else {
+                                setIsLoading(true); // Start pre-loader
+                                setMobileMenuOpen(false); // Close mobile menu
+                                // Allow the link to navigate
+                                setTimeout(() => setIsLoading(false), 1000);
+                            }
                         }}
                     >
-                        <span className='mx-2'>{item.icon}</span>{item.label}
-                    </a>
+                        <span className="mx-2">{item.icon}</span>{item.label}
+                    </Link>
                     {item.subMenu && activeDropdown === key && (
                         <ul
                             className={`${
@@ -139,15 +146,15 @@ const Header = () => {
 
                 <div className="sm:hidden md:flex items-center">
                     <Link href="#" className='flex text-[16px] text-white'>
-                      <span className='pt-1 mx-1'><IoMdCall /> </span>   <span>+91 9828372744</span>
+                        <span className='pt-1 mx-1'><IoMdCall /> </span> <span>+91 9828372744</span>
                     </Link>
                     <Link href="#" className='flex text-[16px] text-white'>
-                    <span className='pt-1 mx-1'><IoIosMail /> </span>  <span>espindotour@gmail.com </span>
+                        <span className='pt-1 mx-1'><IoIosMail /> </span>  <span>espindotour@gmail.com </span>
                     </Link>
                 </div>
             </div>
 
-            <nav className={`flex items-center p-2 scroll justify-between sm:justify-between md:justify-start lg:justify-start ${isSticky ? 'fixed top-0 w-full shadow-md z-50  bg-white ' : ''}`}>
+            <nav className={`flex items-center p-2 scroll justify-between sm:justify-between md:justify-start lg:justify-start ${isSticky ? 'fixed top-0 w-full shadow-md z-50 bg-white' : ''}`}>
                 <div className="w-1/4 flex">
                     <Link href="/" className="text-2xl font-bold">
                         <Image src="/espindo-new-logo.png" alt="Logo" width={160} height={40} quality={75} priority={true} />
