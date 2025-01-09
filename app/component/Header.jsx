@@ -179,7 +179,7 @@ const Header = () => {
             {/* Pre-loader */}
             {isLoading && (
                 <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-30">
-                    <div className="text-white">Loading...</div>
+                    <div className="text-white"><Image src="/loading.gif" width={64} height={64} alt="loading"/></div>
                 </div>
             )}
 
