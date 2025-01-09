@@ -5,25 +5,20 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "What is Next.js?",
+    question: "What is the best time to visit Jaipur?",
     answer:
-      "Next.js is a React framework that enables functionality such as server-side rendering and static site generation, helping to optimize performance and SEO.",
+      "The best time to visit Jaipur is from October to March when the weather is cooler and more pleasant for sightseeing. The summer months (April to June) can be extremely hot, with temperatures often reaching above 40°C (104°F).",
   },
   {
-    question: "How do I create a new Next.js project?",
-    answer:
-      "To create a new Next.js project, you can run `npx create-next-app my-app` or `yarn create next-app my-app` in your terminal.",
+    question: "How many days should I spend in Jaipur?",
+    answer: "A 2 to 3-day trip is ideal to explore the main attractions of Jaipur. This allows time to visit major forts, palaces, markets, and experience local culture.",
   },
   {
-    question: "What is the difference between static and server-side rendering?",
+    question: "Is Jaipur safe for tourists?",
     answer:
-      "Static rendering generates HTML at build time, while server-side rendering generates HTML on each request, providing fresh content for every visit.",
+      "Jaipur is generally a safe city for tourists. However, like any other tourist destination, it’s advisable to take basic precautions, such as being cautious with your belongings and avoiding isolated areas at night.",
   },
-  {
-    question: "What are API routes in Next.js?",
-    answer:
-      "API routes allow you to create backend endpoints within your Next.js app, enabling server-side logic without needing a separate backend server.",
-  },
+
 ];
 
 const FAQSection = () => {

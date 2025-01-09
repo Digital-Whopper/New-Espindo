@@ -7,7 +7,7 @@ import FloatingCallButton from "./FloatingCallButton";
 const Footer = () => {
   const placesToVisit = ["leopardsafari", "onedaytour", "twodaytour"];
   const placesToVisits = ["Leopard safari", "One Day Tour", "Two Day Tour"];
-  const customerServices = ["Contact Us", "Privacy Policy", "Refund Policy", "Terms of Service"];
+  const customerServices = ["taxi","contact", "privacypolicy"];
 
   return (
     <div className="flex bg-[#f4839e] w-full lg:text-left md:text-center sm:text-center text-center pt-10 pb-10">
