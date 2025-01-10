@@ -15,7 +15,7 @@ const ProductSlider = ({ items }) => {
 
   return (
     <section className="z-0 relative">
-      <Carousel responsive={responsive}  autoPlay={true}
+      <Carousel responsive={responsive}  autoPlay={false}
           autoPlaySpeed={2000}
           infinite={true}
           pauseOnHover={false}  >
@@ -37,11 +37,11 @@ const ProductSlider = ({ items }) => {
                   />
                 </div>
                 <div>
-                  <p className="font-bold mb-2">{item.title}</p>
-                  <p>Tour Type: One-Day & Two-Day</p>
-                  <p className="my-2 bg-gradient-to-b from-pink-200 to-transparent">
+                  <p className="font-bold mb-2 text-3xl">{item.title}</p>
+                  <p>Tour Type: One-Day/Two-Day</p>
+                  {/* <p className="my-2 bg-gradient-to-b from-pink-200 to-transparent">
                     {item.badge}
-                  </p>
+                  </p> */}
                   <p className="mb-4">
                     <b>{item.price}</b> <del>{item.originalPrice}</del>
                   </p>
@@ -50,11 +50,11 @@ const ProductSlider = ({ items }) => {
             </Link>
             <div>
               <button className="bg-[#f4839e] text-white py-2 px-4 rounded mr-2">
-                <a href="tel:9828372744">Call Now</a>
+                <a href="tel:+91-9928062034">Call Now</a>
               </button>
               <a
                 className="bg-[#f4839e] text-white py-2 px-4 rounded"
-                href="https://web.whatsapp.com/send?phone=+1234567890"
+                href="https://web.whatsapp.com/send?phone=7790966554"
                 target="_blank"
                 rel="noopener noreferrer"
               >

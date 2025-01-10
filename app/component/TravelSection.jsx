@@ -37,7 +37,7 @@ const TravelSection = ({ travelData,tourDetails ,trips, iconName, highlights ,si
 
  <h2 className="font-semibold text-lg sm:text-2xl">Jaipur Sightseeing Tour</h2>
  <ul className="sightseeing-ul font-semibold">
-  <li className=" text-xs text-sm sm:text-base md:text-lg mt-4">Jaipur City Tour #JT-001D</li>  
+  <li className=" text-xs text-sm sm:text-base md:text-lg mt-4">Jaipur City Tour</li>  
   <li className=" text-xs  text-sm sm:text-base md:text-lg mt-2">Duration: 9 Hours</li>  
   <li className=" text-xs  text-sm sm:text-base md:text-lg mt-2">Cost: ₹ 2,500/- per person Tax inclusive</li>  
 </ul>
@@ -84,7 +84,7 @@ const TravelSection = ({ travelData,tourDetails ,trips, iconName, highlights ,si
  </div>
       </div>
 <div className="icon-detail-right w-full sm:w-[40%]">
-<Link href="https://wa.me/+919828372744">  
+<Link href="https://wa.me/7790966554">  
 <Image
             src="/button_image.png"
             alt="enquiry"

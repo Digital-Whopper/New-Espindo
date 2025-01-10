@@ -38,13 +38,13 @@
   }
 
   .contentss button {
-    background: #eaeaea;
-    color: #202134;
-    font-size: clamp(0.9rem, 4vw, 1rem);
+    background: #118d0b;
+    color: #ffffff;
+    font-size: 20px;
     font-weight: 600;
     border: 0;
     outline: 0;
-    padding: 8px 14px;
+    padding: 20px 45px;
     border-radius: 7px;
     transform: scale(1);
     transition: all 0.4s ease-in;
@@ -53,8 +53,7 @@
 
   .contentss button:is(:hover, :focus) {
     transform: scale(0.98);
-    background-color: #6f7aa6;
-    color: #eaeaea;
+    
   }
 
   .swiper {
@@ -161,12 +160,12 @@
     }
   }
 
-  @media (max-width: 1050px) {
+  /* @media (max-width: 1050px) {
     .swiper {
       width: 60%;
       height: auto;
     }
-  }
+  } */
 
   @media (max-width: 930px) {
     .rotate-section {

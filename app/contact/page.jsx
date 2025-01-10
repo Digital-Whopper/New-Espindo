@@ -106,11 +106,12 @@ const Page = () => {
           </div>
           <div className="text-center w-full lg:w-[33%]">
             <h3 className="font-semibold text-lg">Call Us</h3>
-            <p className="text-gray-600">+91-9828372744</p>
+            <p className="text-gray-600">+91-7790966554</p>
+            <p className="text-gray-600">+91-9928062034</p>
           </div>
           <div className="text-center w-full lg:w-[33%]">
             <h3 className="font-semibold text-lg">Email Us</h3>
-            <p className="text-gray-600">espindotourandtravels@gmail.com</p>
+            <p className="text-gray-600">espindotour@gmail.com</p>
           </div>
         </div>
       </div>

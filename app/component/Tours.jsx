@@ -19,38 +19,51 @@ const Tours = () => {
 
   const datas = [
     {
-        imgSrc:"/nahar.jpg",
-        hoverImg:"/nahargarhview.jpg",
-        imgAlt:"Nahargarh",
-        headingtext:"Nahargarh",
-        para:"Nahargarh Fort, located in Jaipur, Rajasthan, India, is a historic fortification that forms part of the trio of forts alongside Amer Fort and Jaigarh Fort. Built in 1734 by Maharaja Sawai Jai Singh II, the founder of Jaipur, Nahargarh means Abode of Tigers. The fort was primarily constructed as a retreat and a defensive structure to protect Jaipur.",
+      imgSrc:"/patrika.jpg",
+      hoverImg:"/patrka.jpg",
+      imgAlt:"Patrika",
+      headingtext:"Patrika Gate",
+      para:"Patrika Gate, located at Jawahar Circle in Jaipur, Rajasthan, is a vibrant and iconic architectural landmark. It serves as a grand entrance to Jawahar Circle Garden, which is among the largest circular parks in Asia. Patrika Gate has become a symbol of Jaipur&apos;s artistic and cultural richness, attracting visitors for its stunning aesthetics and Instagram-worthy charm.",
       
-        link:"/tour"
-    },
+  },
     {
-        imgSrc:"/patrika.jpg",
-        hoverImg:"/patrka.jpg",
-        imgAlt:"Patrika",
-        headingtext:"Patrika Gate",
-        para:"Patrika Gate, located at Jawahar Circle in Jaipur, Rajasthan, is a vibrant and iconic architectural landmark. It serves as a grand entrance to Jawahar Circle Garden, which is among the largest circular parks in Asia. Patrika Gate has become a symbol of Jaipur&apos;s artistic and cultural richness, attracting visitors for its stunning aesthetics and Instagram-worthy charm.",
-        
-    },
-    {
-        imgSrc:"/hawa-mahal-inside.jpg",
-        hoverImg:"/hnght.jpg",
-        imgAlt:"Hawa Mahal ",
-        headingtext:"Hawa Mahal",
-        para:"Hawa Mahal, also known as the Palace of Winds, is an iconic architectural marvel located in Jaipur, Rajasthan, India. Built in 1799 by Maharaja Sawai Pratap Singh, the structure is a fine example of Rajput architecture infused with Mughal influences. The Hawa Mahal is celebrated for its intricate design and cultural significance.",
-        
-    },
-    {
-        imgSrc:"/jal-flower.jpg",
-        hoverImg:"/jhalmahal.jpg",
-        imgAlt:"Jal Mahal",
-        headingtext:"Jal Mahal",
-        para:"Jal Mahal, or the Water Palace, is a stunning architectural marvel located in the middle of Man Sagar Lake in Jaipur, Rajasthan, India. This palace is an iconic example of Rajputana architectural finesse and is renowned for its serene beauty and unique setting.",
-        
-    },
+      imgSrc:"/birla.jpg",
+      hoverImg:"/birla-nightview.jpg",
+      imgAlt:"Birla Mandir",
+      headingtext:"Birla Mandir",
+      para:"Birla Mandir, also known as the Laxmi Narayan Temple, is a prominent Hindu temple located in Jaipur, Rajasthan. Built by the Birla family in 1988, this temple is dedicated to Lord Vishnu (Narayan) and Goddess Laxmi, the deity of wealth and prosperity. It is renowned for its stunning architecture and serene ambiance.",
+      
+  },
+  {
+    imgSrc:"/albert-night.jpg",
+    hoverImg:"/albert.jpg",
+    imgAlt:"Albert Hall",
+    headingtext:"Albert Hall",
+    para:"Albert Hall Museum, located in Jaipur, Rajasthan, is one of the oldest museums in India and a prime example of Indo-Saracenic architecture. Built in 1876, it was originally intended as a concert hall but later converted into a museum to preserve Jaipur&apos;s cultural and artistic heritage. It is named after Prince Albert, the consort of Queen Victoria, who visited Jaipur during its construction.",
+   
+},  {
+  imgSrc:"/hawa-mahal-inside.jpg",
+  hoverImg:"/hnght.jpg",
+  imgAlt:"Hawa Mahal ",
+  headingtext:"Hawa Mahal",
+  para:"Hawa Mahal, also known as the Palace of Winds, is an iconic architectural marvel located in Jaipur, Rajasthan, India. Built in 1799 by Maharaja Sawai Pratap Singh, the structure is a fine example of Rajput architecture infused with Mughal influences. The Hawa Mahal is celebrated for its intricate design and cultural significance.",
+  
+}, {
+  imgSrc:"/jal-flower.jpg",
+  hoverImg:"/jhalmahal.jpg",
+  imgAlt:"Jal Mahal",
+  headingtext:"Jal Mahal",
+  para:"Jal Mahal, or the Water Palace, is a stunning architectural marvel located in the middle of Man Sagar Lake in Jaipur, Rajasthan, India. This palace is an iconic example of Rajputana architectural finesse and is renowned for its serene beauty and unique setting.",
+  
+},
+
+
+
+
+    
+   
+  
+   
     {
         imgSrc:"/jantar.jpg",
         hoverImg:"/jantarmnt.jpg",
@@ -59,14 +72,7 @@ const Tours = () => {
         para:"Jantar Mantar in Jaipur is a UNESCO World Heritage Site and one of the largest and best-preserved observatories in India. Built in the early 18th century by Maharaja Sawai Jai Singh II, the founder of Jaipur, this astronomical wonder showcases the scientific and architectural advancements of the time.",
         
     },
-    {
-        imgSrc:"/birla.jpg",
-        hoverImg:"/birla-nightview.jpg",
-        imgAlt:"Birla Mandir",
-        headingtext:"Birla Mandir",
-        para:"Birla Mandir, also known as the Laxmi Narayan Temple, is a prominent Hindu temple located in Jaipur, Rajasthan. Built by the Birla family in 1988, this temple is dedicated to Lord Vishnu (Narayan) and Goddess Laxmi, the deity of wealth and prosperity. It is renowned for its stunning architecture and serene ambiance.",
-        
-    },
+   
     {
         imgSrc:"/citypalace2.jpg",
         hoverImg:"/citypalace.jpg",
@@ -84,13 +90,14 @@ const Tours = () => {
          
     },
     {
-        imgSrc:"/albert-night.jpg",
-        hoverImg:"/albert.jpg",
-        imgAlt:"Albert Hall",
-        headingtext:"Albert Hall",
-        para:"Albert Hall Museum, located in Jaipur, Rajasthan, is one of the oldest museums in India and a prime example of Indo-Saracenic architecture. Built in 1876, it was originally intended as a concert hall but later converted into a museum to preserve Jaipur&apos;s cultural and artistic heritage. It is named after Prince Albert, the consort of Queen Victoria, who visited Jaipur during its construction.",
-       
-    },
+      imgSrc:"/nahar.jpg",
+      hoverImg:"/nahargarhview.jpg",
+      imgAlt:"Nahargarh",
+      headingtext:"Nahargarh",
+      para:"Nahargarh Fort, located in Jaipur, Rajasthan, India, is a historic fortification that forms part of the trio of forts alongside Amer Fort and Jaigarh Fort. Built in 1734 by Maharaja Sawai Jai Singh II, the founder of Jaipur, Nahargarh means Abode of Tigers. The fort was primarily constructed as a retreat and a defensive structure to protect Jaipur.",
+    
+      link:"/tour"
+  },
     // Add the rest of your data here...
   ];
 
@@ -181,7 +188,7 @@ const Tours = () => {
                       <span className='text-xs sm:text-base'>Tour Details</span>
                     </div>
                     </Link>
-                    <Link href='tel:9828372744' className='border w-[33%] p-1 flex flex-col items-center justify-center hover:bg-[#f4839e] hover:text-white rounded'>
+                    <Link href='tel:+91-7790966554' className='border w-[33%] p-1 flex flex-col items-center justify-center hover:bg-[#f4839e] hover:text-white rounded'>
                     
                     <div className='icon-class'>
                       <span className='text-lg sm:text-2xl'>
@@ -190,7 +197,7 @@ const Tours = () => {
                       <span className='text-xs sm:text-base'>Call us</span>
                     </div>
                     </Link>
-                    <Link href='https://wa.me/9828372744' className='border w-[33%] p-1 flex flex-col items-center justify-center hover:bg-[#f4839e] hover:text-white rounded'>
+                    <Link href='https://wa.me/7790966554' className='border w-[33%] p-1 flex flex-col items-center justify-center hover:bg-[#f4839e] hover:text-white rounded'>
                     <div className='icon-class'>
                       <span className='text-lg sm:text-2xl'>
                       <AiFillMessage className='m-auto' />

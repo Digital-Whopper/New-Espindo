@@ -7,7 +7,7 @@ import FloatingCallButton from "./FloatingCallButton";
 const Footer = () => {
   const placesToVisit = ["leopardsafari", "onedaytour", "twodaytour"];
   const placesToVisits = ["Leopard safari", "One Day Tour", "Two Day Tour"];
-  const customerServices = ["taxi","contact", "privacypolicy"];
+  const customerServices = ["taxi", "tour", "contact"];
 
   return (
     <div className="flex bg-[#f4839e] w-full lg:text-left md:text-center sm:text-center text-center pt-10 pb-10">
@@ -28,7 +28,8 @@ const Footer = () => {
           <h3 className="font-bold mt-6 text-white">Contact Us</h3>
           <div className="mt-6 text-white mt-0">
             <p>Address: Plot No. 17 Siddharth Nagar, Near Jawahar Circle, Jagatpura, Jaipur Rajasthan Pin 302017</p>
-            <p className="mt-4">Ph no: +91-9828372744</p>
+            <p className="mt-4">Ph no: +91-7790966554</p>
+            <p className="mt-4">Ph no: +91-9928062034</p>
             <p className="mt-4">E-mail: espindotour@gmail.com</p>
           </div>
         </div>

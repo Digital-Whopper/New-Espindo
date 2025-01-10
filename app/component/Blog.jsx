@@ -35,7 +35,7 @@ export default function Blog() {
             {blogs.map((blog) => (
               <div
                 key={blog.id}
-                className="h-[450px] bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
               >
                 <Image
                 width={600}

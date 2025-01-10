@@ -5,7 +5,7 @@ import { useState } from "react";
 const videos = [
   {
     id: 1,
-    src: "/video1.mp4",
+    src: "/Video_3.mp4",
 
     type: "mp4", 
   },
@@ -44,7 +44,8 @@ export default function VideoSlider() {
   };
 
   return (
-    <div className="video-slider">
+    <div className="video-slider w-1500px sm:w-[100%] md:w-[100%] lg:w-[100%]">
+      
       {/* Fullscreen Video Modal */}
       {isVideoOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-[9999]">
@@ -79,11 +80,13 @@ export default function VideoSlider() {
 
       {/* Video Grid (Silent Slider) */}
       {!isVideoOpen && (
-        <div className="silent-slider flex gap-4 p-4 flex-wrap">
+
+        <div className="vids overflow-x-auto scrolling-touch">
+           <div className="silent-slider flex gap-4 p-4 whitespace-nowrap">
           {videos.map((video) => (
             <div
               key={video.id}
-              className="relative cursor-pointer w-full lg:w-[24%]"
+              className="relative cursor-pointer w-full sm:w-[50%] md:w-[50%] lg:w-[24%] flex flex-none"
               onClick={() => openVideo(video)}
             >
               {video.type === "youtube" ? (
@@ -110,6 +113,8 @@ export default function VideoSlider() {
             </div>
           ))}
         </div>
+        </div>
+       
       )}
     </div>
   );

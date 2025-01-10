@@ -13,7 +13,7 @@ const PackageSection = () => {
             }}
           >
             <div className=" flex flex-col items-start justify-left">
-              <p className="text-white lg:text-5xl sm:text-3xl text-lg p-2 font-bold">1 Day Package</p>
+              <p className="text-white lg:text-5xl sm:text-3xl text-lg p-2 font-bold">1 Day Tour Package</p>
               <Link href={'/onedaytour'} className="bg-white text-black sm:py-2 sm:px-4 py-1 px-2 sm:text-lg text-xs rounded m-2">
                 Read More
               </Link>
@@ -28,7 +28,7 @@ const PackageSection = () => {
             }}
           >
             <div className=" flex flex-col items-start justify-center">
-              <p className="text-white lg:text-5xl sm:text-3xl text-lg p-2 font-bold">2 Day Package</p>
+              <p className="text-white lg:text-5xl sm:text-3xl text-lg p-2 font-bold">2 Day Tour Package</p>
               <Link href={'/onedaytour'} className="bg-white text-black sm:py-2 sm:px-4 py-1 px-2 sm:text-lg text-xs rounded m-2">
                 Read More
               </Link>

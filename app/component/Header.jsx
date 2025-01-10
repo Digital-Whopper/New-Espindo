@@ -139,15 +139,19 @@ const Header = () => {
                     <Link href="#" className='flex text-[20px] text-white mx-2'>
                         <FaInstagram />
                     </Link>
-                    <Link href="https://wa.me/+919828372744" className='flex text-[20px] text-white mx-2'>
+                    <Link href="https://wa.me/+917790966554" className='flex text-[20px] text-white mx-2'>
                         <FaWhatsapp />
                     </Link>
                 </div>
 
                 <div className="sm:hidden md:flex items-center">
-                    <Link href="tel:+91-9828372744" className='flex text-[16px] text-white'>
-                        <span className='pt-1 mx-1'><IoMdCall /> </span> <span>+91 9828372744</span>
+                <Link href="tel:+91-7790966554" className='flex text-[16px] text-white'>
+                        <span className='pt-1 mx-1'><IoMdCall /> </span> <span>+91-7790966554</span>
                     </Link>
+                    <Link href="tel:+91-9928062034" className='flex text-[16px] text-white'>
+                        <span className='pt-1 mx-1'><IoMdCall /> </span> <span>+91-9928062034</span>
+                    </Link>
+                    
                     <Link href="mailto:espindotour@gmail.com" className='flex text-[16px] text-white'>
                         <span className='pt-1 mx-1'><IoIosMail /> </span>  <span>espindotour@gmail.com </span>
                     </Link>

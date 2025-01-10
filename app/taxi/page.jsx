@@ -25,51 +25,50 @@ const page = () => {
       id: 1,
       imageSrc: "/LEOPARD.webp",
       title: "Jhalana Leopard-Safari",
-      description: "Tour Type: Customizable 9 hours",
-      badge: "5D Sambhar Lake",
-      price: "INR 45,000",
-      originalPrice: "INR 75,000",
-      alt: "Sambhar Lake",
+ 
+    
+      price: "INR 1600 Per-Person",
+      originalPrice: "INR 3200 ",
+      alt: "Jhalana Leopard-Safari",
       link: "/tour"
     },
+    // camel-safari.webp
     {
       id: 2,
-      imageSrc: "/camel-safari.webp",
+      imageSrc: "/Camel.jpg",
       title: "Camel-Safari",
-      description: "Tour Type: Customizable 9 hours",
+
       badge: "5D Sambhar Lake",
-      price: "INR 45,000",
-      originalPrice: "INR 75,000",
-      alt: "NaharGadh Tour",
+      price: "INR 700 Per-Person",
+      originalPrice: "INR 1400",
+      alt: "Camel-Safari",
       link: "/tour"
     },
     {
       id: 3,
       imageSrc: "/el-safari.webp",
       title: "Elephant-Safari",
-      description: "Tour Type: Customizable 9 hours",
-      badge: "5D Sambhar Lake",
-      price: "INR 45,000",
-      originalPrice: "INR 75,000",
-      alt: "City Palace Tour",
+     
+      
+      price: "INR 11,00 Per-Person",
+      originalPrice: "INR 2200",
+      alt: "Elephant-Safari",
       link: "/tour"
     },
     {
       id: 4,
       imageSrc: "/sawai.webp",
-      title: "Ranthambore",
-      description: "Tour Type: Customizable 9 hours",
-      badge: "5D Sambhar Lake",
-      price: "INR 45,000",
-      originalPrice: "INR 75,000",
-      alt: "Jal Mahal Tour",
+      title: "Ranthambore Safari Tour",
+      price: "INR 1800 Per-Person",
+      originalPrice: "INR 3600",
+      alt: "Ranthambore Safari Tour",
       link: "/tour"
     },
   
   ];
   const transfers = [
     {
-      heading: "Jaipur Local Transfers",
+      heading: "Jaipur Local Transfers/ Local Sightseeing in Jaipur/ Luxury Car and Taxi Hire in Jaipur",
      
       tableData: [
         {
@@ -104,78 +103,78 @@ const page = () => {
         },
       ],
     },
-    {
-      heading: "Local Sightseeing in Jaipur", 
+    // {
+    //   heading: "All India Taxi Service One Way And Round Trip Taxi Are Available", 
      
-      tableData: [
-        {
-          car: "Sedan Car Toyota Etios / Swift Dezire / 3 seats",
-          price: "Rs. 3,000",
-          km: 80,
-          hours: "8 hours",
-        },
-        {
-          car: "SUV Innova Crysta / 6 seats",
-          price: "Rs. 4,500",
-          km: 80,
-          hours: "8 hours",
-        },
-        {
-          car: "Tempo Traveller / 12 seats",
-          price: "Rs. 6,500",
-          km: 80,
-          hours: "8 hours",
-        },
-        {
-          car: "Mini Coach / 18 seats",
-          price: "Rs. 13,500",
-          km: 80,
-          hours: "8 hours",
-        },
-        {
-          car: "Coach / 35 seats",
-          price: "Rs. 19,000",
-          km: 80,
-          hours: "8 hours",
-        },
-      ],
-    },
-    {
-      heading: "Luxury Car and Taxi Hire in Jaipur", 
+    //   tableData: [
+    //     {
+    //       car: "Sedan Car Toyota Etios / Swift Dezire / 3 seats",
+    //       price: "Rs. 3,000",
+    //       km: 80,
+    //       hours: "8 hours",
+    //     },
+    //     {
+    //       car: "SUV Innova Crysta / 6 seats",
+    //       price: "Rs. 4,500",
+    //       km: 80,
+    //       hours: "8 hours",
+    //     },
+    //     {
+    //       car: "Tempo Traveller / 12 seats",
+    //       price: "Rs. 6,500",
+    //       km: 80,
+    //       hours: "8 hours",
+    //     },
+    //     {
+    //       car: "Mini Coach / 18 seats",
+    //       price: "Rs. 13,500",
+    //       km: 80,
+    //       hours: "8 hours",
+    //     },
+    //     {
+    //       car: "Coach / 35 seats",
+    //       price: "Rs. 19,000",
+    //       km: 80,
+    //       hours: "8 hours",
+    //     },
+    //   ],
+    // },
+    // {
+    //   heading: "Luxury Car and Taxi Hire in Jaipur", 
      
-      tableData: [
-        {
-          car: "Sedan Car Toyota Etios / Swift Dezire / 3 seats",
-          price: "Rs. 3,000",
-          km: 80,
-          hours: "8 hours",
-        },
-        {
-          car: "SUV Innova Crysta / 6 seats",
-          price: "Rs. 4,500",
-          km: 80,
-          hours: "8 hours",
-        },
-        {
-          car: "Tempo Traveller / 12 seats",
-          price: "Rs. 6,500",
-          km: 80,
-          hours: "8 hours",
-        },
-        {
-          car: "Mini Coach / 18 seats",
-          price: "Rs. 13,500",
-          km: 80,
-          hours: "8 hours",
-        },
-        {
-          car: "Coach / 35 seats",
-          price: "Rs. 19,000",
-          km: 80,
-          hours: "8 hours",
-        },
-      ],
-    },
+    //   tableData: [
+    //     {
+    //       car: "Sedan Car Toyota Etios / Swift Dezire / 3 seats",
+    //       price: "Rs. 3,000",
+    //       km: 80,
+    //       hours: "8 hours",
+    //     },
+    //     {
+    //       car: "SUV Innova Crysta / 6 seats",
+    //       price: "Rs. 4,500",
+    //       km: 80,
+    //       hours: "8 hours",
+    //     },
+    //     {
+    //       car: "Tempo Traveller / 12 seats",
+    //       price: "Rs. 6,500",
+    //       km: 80,
+    //       hours: "8 hours",
+    //     },
+    //     {
+    //       car: "Mini Coach / 18 seats",
+    //       price: "Rs. 13,500",
+    //       km: 80,
+    //       hours: "8 hours",
+    //     },
+    //     {
+    //       car: "Coach / 35 seats",
+    //       price: "Rs. 19,000",
+    //       km: 80,
+    //       hours: "8 hours",
+    //     },
+    //   ],
+    // },
   ];
   return (
     <div className="bg-[#eeeeee]" >
@@ -210,15 +209,15 @@ Espindo offers Jaipur sightseeing taxi services with cooperative and helpful dri
       </section>
 
    <div className="w-[100%] sm:w-[100%] md:w-[95%]  lg:w-[80%] mx-auto flex flex-wrap bg-white p-5">
-<div className="content  w-[100%] sm:w-[100%] md:w-[60%]  lg:w-[70%]">
+<div className="content  w-[100%] sm:w-[100%] md:w-[100%]  lg:w-[100%]">
   <h2 className='text-4xl font-semibold	mb-3'>Jaipur Car Rental</h2>
   <h3 className='md:text-xl  lg:text-2xl font-semibold mb-1 text-[#e03f64]'>Best offer for Jaipur Full Day Sightseeing.</h3>
   <h3 className='md:text-xl  lg:text-2xl font-semibold mb-1 text-[#e03f64]'>Deluxe Car Rs.2600 + Guide Rs.800 : Rs. 3400/-</h3>
-  <h3 className='md:text-xl  lg:text-2xl font-semibold mb-1 text-[#e03f64]'>Now Rs.2999/- Only | No hidden costs Call: +91-9828372744  </h3>
+  <h3 className='md:text-xl  lg:text-2xl font-semibold mb-1 text-[#e03f64]'>Now Rs.2999/- Only | No hidden costs Call: +91-7790966554  <br /> <span>& +91-9928062034</span>   </h3>
 
   <div className="space-y-12">
   {transfers.map((transfer, index) => (
-    <div key={index}>
+    <div key={index} className='main-texi border-t border-black '>
       {/* Conditionally render heading only if available */}
       {transfer.heading && (
         <h3 className="flex items-center text-[#213d44] font-semibold text-lg mt-12 mb-5">
@@ -251,17 +250,9 @@ Espindo offers Jaipur sightseeing taxi services with cooperative and helpful dri
   ))}
 </div>
 
+        
 </div>
-<div className="tour_right head_right tour_help tour-ri-com w-[100%] sm:w-[100%] md:w-[40%]  lg:w-[30%]">
-  <div className='w-[100%] sm:w-[100%] md:w-[70%]  lg:w-[70%] border border-[#e2e2e2] m-auto'>
-	<h3 className='font-semibold p-[10px] bg-[#253d52] text-white'>Help &amp; Support</h3>
-						<div className="tour_help_1 text-center">
-							<h4 className="text-center text-xl text-[#e03f64] font-semibold mt-2">Call Us Now</h4>
-							<h4 className="text-center text-xl font-semibold my-2 flex"> <span className='flex m-auto items-center'><IoCall />+91-9828372744</span></h4> </div>
 
-  </div>
-					
-					</div>
 
 
 
@@ -298,17 +289,34 @@ Espindo offers Jaipur sightseeing taxi services with cooperative and helpful dri
 
       {/* Support Section */}
       <section className="max-w-full">
-        <div className="relative bg-cover bg-center lg:p-36 p-28" style={{ backgroundImage: "url('https://img.freepik.com/free-photo/soft-evening-light-captures-moving-vehicles-from-cars-view_157027-4343.jpg?t=st=1733125106~exp=1733128706~hmac=27948dd50b5e0deb92f0812b0d2830c1129c7fbecf744d8c9b564baea27e29b9&w=1380')" }}>
-          <div className="absolute inset-0 bg-[#292929] opacity-80"></div>
-          <div className="absolute inset-0 flex items-center justify-around flex-wrap sm:text-start text-center w-full">
-            <div className="lg:w-[60%] sm:w-[80%] w-[90%]">
-              <h3 className="sm:text-3xl text-xl font-bold text-white">Experience Great Support</h3>
+        <div className="bg-cover bg-center lg:p-0 p-0" style={{ backgroundImage: "url('/texi-image-banner.png')" }}>
+          <div className=" inset-0 bg-[#292929] opacity-80"></div>
+          <div className="inset-0 flex items-center justify-around flex-wrap sm:text-start text-center w-full">
+            <div className="lg:w-[64%] sm:w-[80%] w-[90%]">
+              <h3 className="sm:text-3xl text-lg font-bold text-white">All India Taxi Service One Way And Round Trip Taxi Are Available</h3>
               <p className="text-sm lg:pt-6 sm:pt-8 pt-4 text-white">
               Receive top-notch support throughout your journey, with our team always ready to assist for a smooth and enjoyable experience.
               </p>
             </div>
-            <div className="lg:w-[19%] sm:w-[80%] w-[90%] lg:pt-10 font-semibold md:text-sm text-xs">
-              <a href='https://web.whatsapp.com/send?phone=+1234567890' className="bg-[#fff] sm:px-6 px-4 py-2">REACH US TO BOOK TEAM</a>
+            <div className="lg:w-[24%] sm:w-[80%] w-[90%] lg:pt-10 font-semibold md:text-sm text-xs mt-[40px]">
+            <div className="tour_right head_right tour_help tour-ri-com w-[100%] sm:w-[100%] md:w-[40%]  lg:w-[100%]">
+<div className='w-[100%] sm:w-[100%] md:w-[70%]  lg:w-[70%] border border-[#e2e2e2] m-auto'>
+	<h3 className='font-semibold p-[10px] bg-[#253d52] text-white'>Help &amp; Support</h3>
+						<div className="tour_help_1 text-center bg-white">
+							<h4 className="text-center text-xl text-[#e03f64] font-semibold pt-2">Call Us Now</h4>
+							<h4 className="text-center text-xl font-semibold my-2 flex"> <span className='flex m-auto items-center'><IoCall />+91-7790966554</span></h4> 
+              <h4 className="text-center text-xl font-semibold py-2 flex"> <span className='flex m-auto items-center'><IoCall />+91-9928062034</span></h4>
+              
+              </div>
+
+  </div>
+					
+					</div>
+                
+            </div>
+         <div className="reach-button text-center  sm:px-6 px-4 py-2 my-[40px]">
+             <a href='https://web.whatsapp.com/send?phone=+91-7790966554' className="bg-[#fff] sm:px-6 px-4 py-2">REACH US TO BOOK TEAM</a>
+            
             </div>
           </div>
         </div>

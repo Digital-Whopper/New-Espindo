@@ -41,7 +41,7 @@ const page = () => {
 {
   id:5,
   icon:<RiUserVoiceFill />  ,
-  name:"Live guide: German, Japanese, English, Italian, French, Spanish"
+  name:"Live guide: Hindi, German, Japanese, English, Italian, French, Spanish"
 },
 
   ];
@@ -276,53 +276,52 @@ const page = () => {
     ]
 
 
-      const items = [
-        {
-          id: 1,
-          imageSrc: "/LEOPARD.webp",
-          title: "Jhalana Leopard-Safari",
-     
-          badge: "5D Sambhar Lake",
-          price: "INR 45,000",
-          originalPrice: "INR 75,000",
-          alt: "Sambhar Lake",
-          link: "/tour"
-        },
-        {
-          id: 2,
-          imageSrc: "/camel-safari.webp",
-          title: "Camel-Safari",
-    
-          badge: "5D Sambhar Lake",
-          price: "INR 45,000",
-          originalPrice: "INR 75,000",
-          alt: "NaharGadh Tour",
-          link: "/tour"
-        },
-        {
-          id: 3,
-          imageSrc: "/el-safari.webp",
-          title: "Elephant-Safari",
-         
-          badge: "5D Sambhar Lake",
-          price: "INR 45,000",
-          originalPrice: "INR 75,000",
-          alt: "City Palace Tour",
-          link: "/tour"
-        },
-        {
-          id: 4,
-          imageSrc: "/sawai.webp",
-          title: "Ranthambore",
-         
-          badge: "5D Sambhar Lake",
-          price: "INR 45,000",
-          originalPrice: "INR 75,000",
-          alt: "Jal Mahal Tour",
-          link: "/tour"
-        },
+    const items = [
+      {
+        id: 1,
+        imageSrc: "/LEOPARD.webp",
+        title: "Jhalana Leopard-Safari",
+   
       
-      ];
+        price: "INR 1600 Per-Person",
+        originalPrice: "INR 3200 ",
+        alt: "Jhalana Leopard-Safari",
+        link: "/tour"
+      },
+      // camel-safari.webp
+      {
+        id: 2,
+        imageSrc: "/Camel.jpg",
+        title: "Camel-Safari",
+  
+        badge: "5D Sambhar Lake",
+        price: "INR 700 Per-Person",
+        originalPrice: "INR 1400",
+        alt: "Camel-Safari",
+        link: "/tour"
+      },
+      {
+        id: 3,
+        imageSrc: "/el-safari.webp",
+        title: "Elephant-Safari",
+       
+        
+        price: "INR 11,00 Per-Person",
+        originalPrice: "INR 2200",
+        alt: "Elephant-Safari",
+        link: "/tour"
+      },
+      {
+        id: 4,
+        imageSrc: "/sawai.webp",
+        title: "Ranthambore Safari Tour",
+        price: "INR 1800 Per-Person",
+        originalPrice: "INR 3600",
+        alt: "Ranthambore Safari Tour",
+        link: "/tour"
+      },
+    
+    ];
   return (
     <div>
 

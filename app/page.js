@@ -24,10 +24,10 @@ export default function Home() {
       imageSrc: "/LEOPARD.webp",
       title: "Jhalana Leopard-Safari",
  
-      badge: "5D Sambhar Lake",
-      price: "INR 45,000",
-      originalPrice: "INR 75,000",
-      alt: "Sambhar Lake",
+    
+      price: "INR 1600 Per-Person",
+      originalPrice: "INR 3200 ",
+      alt: "Jhalana Leopard-Safari",
       link: "/tour"
     },
     // camel-safari.webp
@@ -37,9 +37,9 @@ export default function Home() {
       title: "Camel-Safari",
 
       badge: "5D Sambhar Lake",
-      price: "INR 45,000",
-      originalPrice: "INR 75,000",
-      alt: "NaharGadh Tour",
+      price: "INR 700 Per-Person",
+      originalPrice: "INR 1400",
+      alt: "Camel-Safari",
       link: "/tour"
     },
     {
@@ -47,21 +47,19 @@ export default function Home() {
       imageSrc: "/el-safari.webp",
       title: "Elephant-Safari",
      
-      badge: "5D Sambhar Lake",
-      price: "INR 45,000",
-      originalPrice: "INR 75,000",
-      alt: "City Palace Tour",
+      
+      price: "INR 11,00 Per-Person",
+      originalPrice: "INR 2200",
+      alt: "Elephant-Safari",
       link: "/tour"
     },
     {
       id: 4,
       imageSrc: "/sawai.webp",
-      title: "Ranthambore",
-     
-      badge: "5D Sambhar Lake",
-      price: "INR 45,000",
-      originalPrice: "INR 75,000",
-      alt: "Jal Mahal Tour",
+      title: "Ranthambore Safari Tour",
+      price: "INR 1800 Per-Person",
+      originalPrice: "INR 3600",
+      alt: "Ranthambore Safari Tour",
       link: "/tour"
     },
   
@@ -136,19 +134,19 @@ These adventures will add excitement to your trip and create unforgettable memor
 <Tour/>
 
 
-<HeadingComponent heading="Our Safari Places"
-para="Exploring New Horizons Together"
-italic="Visit:"
-/>
 
-<ProductSlider items={items} />
 <HeadingComponent 
 italic="Discover:"
 heading="The Jaipur With Our Exclusive Tour"
 para="Join us on a breathtaking journey through some of the most amazing destinations."/>
 
 <VideoSlider/>
+<HeadingComponent heading="Our Safari Places"
+para="Exploring New Horizons Together"
+italic="Visit:"
+/>
 
+<ProductSlider items={items} />
 
 <CubeSlider/>
 
