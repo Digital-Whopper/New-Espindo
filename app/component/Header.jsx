@@ -90,7 +90,7 @@ const Header = () => {
                     {item.subMenu && activeDropdown === key && (
                         <ul
                             className={`${
-                                isMobile ? 'space-y-2 pl-4' : 'absolute left-0 top-16 w-40 bg-white shadow-lg rounded'
+                                isMobile ? 'space-y-2 pl-4' : 'absolute left-0 top-12 w-40 bg-white shadow-lg rounded'
                             } ${isMobile ? '' : 'hidden group-hover:block z-[999999]'}`}
                         >
                             {item.subMenu.map((subItem, index) => (
@@ -139,16 +139,16 @@ const Header = () => {
                     <Link href="#" className='flex text-[20px] text-white mx-2'>
                         <FaInstagram />
                     </Link>
-                    <Link href="#" className='flex text-[20px] text-white mx-2'>
+                    <Link href="https://wa.me/+919828372744" className='flex text-[20px] text-white mx-2'>
                         <FaWhatsapp />
                     </Link>
                 </div>
 
                 <div className="sm:hidden md:flex items-center">
-                    <Link href="#" className='flex text-[16px] text-white'>
+                    <Link href="tel:+91-9828372744" className='flex text-[16px] text-white'>
                         <span className='pt-1 mx-1'><IoMdCall /> </span> <span>+91 9828372744</span>
                     </Link>
-                    <Link href="#" className='flex text-[16px] text-white'>
+                    <Link href="mailto:espindotour@gmail.com" className='flex text-[16px] text-white'>
                         <span className='pt-1 mx-1'><IoIosMail /> </span>  <span>espindotour@gmail.com </span>
                     </Link>
                 </div>
