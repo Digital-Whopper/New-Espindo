@@ -229,19 +229,19 @@ Espindo offers Jaipur sightseeing taxi services with cooperative and helpful dri
       <table className="min-w-full table-auto border-collapse bg-white">
         <thead>
           <tr>
-            <th className="bg-gray-100 px-4 py-2 text-left text-sm font-semibold">Car / Taxi</th>
-            <th className="bg-gray-100 px-4 py-2 text-left text-sm font-semibold">Price</th>
-            <th className="bg-gray-100 px-4 py-2 text-left text-sm font-semibold">Km</th>
-            <th className="bg-gray-100 px-4 py-2 text-left text-sm font-semibold">Hours</th>
+            <th className="bg-gray-100 px-0 md:px-4 lg:px-4 py-2 text-left text-sm font-semibold">Car / Taxi</th>
+            <th className="bg-gray-100 px-0 md:px-4 lg:px-4 py-2 text-left text-sm font-semibold">Price</th>
+            <th className="bg-gray-100 px-0 md:px-4 lg:px-4 py-2 text-left text-sm font-semibold">Km</th>
+            <th className="bg-gray-100 px-0 md:px-4 lg:px-4 py-2 text-left text-sm font-semibold">Hours</th>
           </tr>
         </thead>
         <tbody>
           {transfer.tableData.map((row, rowIndex) => (
             <tr key={rowIndex} className={rowIndex % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-              <td className="px-4 py-2 text-sm">{row.car}</td>
-              <td className="px-4 py-2 text-sm font-semibold">{row.price}</td>
-              <td className="px-4 py-2 text-sm">{row.km}</td>
-              <td className="px-4 py-2 text-sm">{row.hours}</td>
+              <td className="px-2 md:px-4 lg:px-4 py-2 text-sm">{row.car}</td>
+              <td className="px-2 md:px-4 lg:px-4 py-2 text-sm font-semibold">{row.price}</td>
+              <td className="px-2 md:px-4 lg:px-4 py-2 text-sm">{row.km}</td>
+              <td className="px-2 md:px-4 lg:px-4 py-2 text-sm">{row.hours}</td>
             </tr>
           ))}
         </tbody>
@@ -315,7 +315,9 @@ Espindo offers Jaipur sightseeing taxi services with cooperative and helpful dri
                 
             </div>
          <div className="reach-button text-center px-6 sm:px-6 md:px-4 lg:px-4 py-2 my-[40px]">
-             <a href='https://web.whatsapp.com/send?phone=+91-7790966554' className="bg-[#fff] sm:px-6 px-4 py-2">REACH US TO BOOK TEAM</a>
+             <a href='https://web.whatsapp.com/send?phone=+91-7790966554' className="bg-[#fff] text-xs
+ md:text-base lg:text-base
+ sm:px-6 px-4 py-2">REACH US TO BOOK TEAM</a>
             
             </div>
           </div>
