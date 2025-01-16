@@ -315,7 +315,7 @@ Espindo offers Jaipur sightseeing taxi services with cooperative and helpful dri
                 
             </div>
          <div className="reach-button text-center px-6 sm:px-6 md:px-4 lg:px-4 py-2 my-[40px]">
-             <a href='https://web.whatsapp.com/send?phone=+91-7790966554' className="bg-[#fff] text-xs
+             <a href='https://web.whatsapp.com/send?phone=+91-7790966554' className="bg-[#fff] text-[10px]
  md:text-base lg:text-base
  sm:px-6 px-4 py-2">REACH US TO BOOK TEAM</a>
             
