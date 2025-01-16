@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/effect-cube";
 import "../style/cube.css";
 import Image from "next/image";
+import Link from "next/link";
 
                                       
 const CubeSlider = () => {
@@ -53,7 +54,8 @@ const CubeSlider = () => {
             lifetime. You can uncover the hidden gems, iconic landmarks, and
             unique cultural treasures that make each destination special.
           </p>
-          <a href="http://localhost:3000/taxi"><button className="bg-[]">Explore Tours</button></a>
+          
+          <Link href="/taxi"> <button className="bg-[]">Explore Tours</button></Link>
         </div>
 
         <Swiper

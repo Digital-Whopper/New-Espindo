@@ -104,17 +104,17 @@ const DestinationSection = () => {
                 <input
                   type="tel"
                   placeholder="Phone"
-                  className="md:w-[32%] w-full mb-2 md:mb-0 p-2 text-gray-900 border border-white rounded-lg text-sm focus:ring-blue-500 focus:border-blue-500 focus:outline-none focus:ring-1"
+                  className="md:w-[32%] w-full mb-2 md:mb-0 p-2 text-gray-900 border border-gray-300 rounded-lg text-sm focus:ring-blue-500 focus:border-blue-500 focus:outline-none focus:ring-1"
                 />
                 <input
                   type="date"
                   placeholder="Date of Travel"
-                  className="md:w-[31%] w-[49%] p-2 text-gray-900 border border-gray-300 rounded-lg text-sm focus:ring-blue-500 focus:border-blue-500 focus:outline-none focus:ring-1"
+                  className="md:w-[31%] w-[100%] p-2 mb-2 md:mb-0 text-gray-900 border border-gray-300 rounded-lg text-sm focus:ring-blue-500 focus:border-blue-500 focus:outline-none focus:ring-1"
                 />
                 <input
                   type="number"
                   placeholder="Traveller Count"
-                  className="md:w-[31%] sm:w-[50%] w-[49%] p-2 text-gray-900 border border-gray-300 rounded-lg text-sm focus:ring-blue-500 focus:border-blue-500 focus:outline-none focus:ring-1"
+                  className="md:w-[31%] sm:w-[100%] w-[100%] p-2 text-gray-900 border border-gray-300 rounded-lg text-sm focus:ring-blue-500 focus:border-blue-500 focus:outline-none focus:ring-1"
                 />
               </div>
 
