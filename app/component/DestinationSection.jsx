@@ -104,7 +104,7 @@ const DestinationSection = () => {
                 <input
                   type="tel"
                   placeholder="Phone"
-                  className="md:w-[32%] w-full mb-2 md:mb-0 p-2 text-gray-900 border border-gray-300 rounded-lg text-sm focus:ring-blue-500 focus:border-blue-500 focus:outline-none focus:ring-1"
+                  className="md:w-[32%] w-full mb-2 md:mb-0 p-2 text-gray-900 border border-white rounded-lg text-sm focus:ring-blue-500 focus:border-blue-500 focus:outline-none focus:ring-1"
                 />
                 <input
                   type="date"
