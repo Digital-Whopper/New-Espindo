@@ -3,28 +3,31 @@ import { useState, useEffect } from "react";
 import Image from 'next/image';
 const people = [
   {
-    img: "/review1.jpg",
-    name: "Peter Doe",
-    job: "Product Manager",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quod eius recusandae officia voluptas sint deserunt dicta nihil nam omnis.",
+    img: "/user.webp",
+    job: "Bloger",
+    name: "Lucky",
+  
+    text: "I recently booked a trip through Espindo, and it was one of the most seamless experiences ever! The platform provided detailed itineraries, clear pricing, and even helpful packing tips. The local guide they connected me with was knowledgeable and made the trek unforgettable. Highly recommend Espindo for adventure lovers!",
+  },
+  {img: "/user.webp",
+    job: "Developer",
+   
+    name: "Harsh",
+    text: "Espindo made planning my tropical escape stress-free! From resort options to local activities like snorkeling and island tours, everything was at my fingertips. Their customer support was super helpful when I had questions about travel insurance. Only reason for 4 stars is I wish they offered more last-minute deals, but I will definitely book again!",
   },
   {
-    img: "/review1.jpg",
-    name: "Susan Doe",
-    job: "Front-end Dev",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quod eius recusandae officia voluptas sint deserunt dicta nihil nam omnis.",
+    img: "/user.webp",
+    job: "Doctor",
+    name: "Boby",
+
+    text: "Traveling with kids can be tricky, but Espindo made it easy. I found family-friendly packages tailored to our needs, and the booking process was straightforward. The website also included helpful reviews from other families, which reassured us that we were making the right choice. Our vacation was smooth and full of fun!",
   },
   {
-    img: "/review1.jpg",
-    name: "Jack Doe",
-    job: "Fullstack Dev",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quod eius recusandae officia voluptas sint deserunt dicta nihil nam omnis.",
-  },
-  {
-    img: "/review1.jpg",
-    name: "Anna Doe",
-    job: "Backend Dev",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quod eius recusandae officia voluptas sint deserunt dicta nihil nam omnis.",
+    img: "/user.webp",
+    job: "Teacher",
+    name: "Sunny",
+ 
+    text: "As a solo traveler, I prioritize safety and authenticity, and Espindo delivered on both counts. Their curated experiences allowed me to explore off-the-beaten-path destinations while staying within my budget. I also loved their blog section—it was packed with tips that helped me make the most of my trip. Highly recommend Espindo for solo adventurers!",
   },
   // You can add more people here for additional testimonials
 ];
