@@ -136,7 +136,7 @@ const Header = () => {
                     <Link href="#" className='flex text-[20px] mx-2 text-white'>
                         <FaFacebook />
                     </Link>
-                    <Link href="#" className='flex text-[20px] text-white mx-2'>
+                    <Link href="https://www.instagram.com/espindo_tour_and_travels?igsh=eGowcjRlOWc4eDdy&utm_source=qr" className='flex text-[20px] text-white mx-2'>
                         <FaInstagram />
                     </Link>
                     <Link href="https://wa.me/+917790966554" className='flex text-[20px] text-white mx-2'>

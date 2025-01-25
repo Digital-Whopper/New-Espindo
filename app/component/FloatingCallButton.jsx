@@ -11,13 +11,13 @@ const FloatingCallButton = () => {
      
     },
     {
-      href: "tel:+91-7790966554",
+      href: "tel:+91-9928062034",
       src: "/call.png",
       alt: "Phone",
     
     },
     {
-      href: "https://wa.me/7790966554",
+      href: "https://wa.me/9928062034",
       src: "/whatsapp.png",
       alt: "Whatsapp",
    
