@@ -50,7 +50,7 @@ const page = () => {
       const highlights=[
         {
           id:1,
-          para:"An action-packed private tour of Jaipur's top attractions"
+          para:"An action-packed private tour of Jaipur&apos;s top attractions"
         },
         {
           id:2,
@@ -163,7 +163,7 @@ const page = () => {
                 id: 2,
                 title: "Hawa Mahal",
                 time:"9:00 AM:",
-                paraone: "One of Jaipur's most iconic landmarks, the Hawa Mahal or Palace of Winds is a stunning architectural masterpiece from the 18th century. Designed by Ustad Lal Chand, this magnificent structure is made with pink and red sandstone to blend in with the Pink City's color scheme. Its intricate design and grandeur make it a must-visit for tourists in Jaipur.",
+                paraone: "One of Jaipur&apos;s most iconic landmarks, the Hawa Mahal or Palace of Winds is a stunning architectural masterpiece from the 18th century. Designed by Ustad Lal Chand, this magnificent structure is made with pink and red sandstone to blend in with the Pink City&apos;s color scheme. Its intricate design and grandeur make it a must-visit for tourists in Jaipur.",
                 
               },
               {
@@ -212,7 +212,7 @@ const page = () => {
                 id: 9,
                 title: "Royal Gaitor",
                 time:"4:30 PM:",
-                paraone: "Another must-visit monument in Jaipur is the Royal Gaitor, a resting place for past rulers. This site features several Chhatris, or cenotaphs, dedicated to the Maharajas. It's a beautiful and historic spot that should not be missed on your trip to Jaipur."
+                paraone: "Another must-visit monument in Jaipur is the Royal Gaitor, a resting place for past rulers. This site features several Chhatris, or cenotaphs, dedicated to the Maharajas. It&apos;s a beautiful and historic spot that should not be missed on your trip to Jaipur."
               },
               {
                 id: 10,
@@ -225,7 +225,7 @@ const page = () => {
         const tourDetails=[
           {
             id:1,
-            title:"What's included",
+            title:"What&apos;s included",
             lineone:"All Sightseeing & Transfers by Private A/C Car.",
             linetwo:"Private transportation with friendly driver.",
             linethree:"Fuel (Petrol/Diesel/Gasoline), Parking Charges, and all taxes.",
@@ -234,7 +234,7 @@ const page = () => {
           },
           {
             id:2,
-            title:"What's not included",
+            title:"What&apos;s not included",
             lineone:"Monuments Entrance Fees / Camera Fees",
             linetwo:"Meals & Other Expenses",
             linethree:"Air /Train / Bus Fare",
@@ -257,7 +257,7 @@ const page = () => {
           },
           {
             id:2,
-            desc:"Learn about the history of Jaipur, a royal capital founded in 1727. Get a look at the city&apos;s trademark downtown and discover how it came to be painted pink. Visit Hawa Mahal, or Palace of Winds, with its beehive-shaped facade—once a purdah screen for Rajput women. See Jantar Mantar, a centuries-old astronomical observatory, and the City Palace, home to Rajasthan's royal family, before drop-off to your hotel after a full day of sightseeing.."
+            desc:"Learn about the history of Jaipur, a royal capital founded in 1727. Get a look at the city&apos;s trademark downtown and discover how it came to be painted pink. Visit Hawa Mahal, or Palace of Winds, with its beehive-shaped facade—once a purdah screen for Rajput women. See Jantar Mantar, a centuries-old astronomical observatory, and the City Palace, home to Rajasthan&apos;s royal family, before drop-off to your hotel after a full day of sightseeing.."
           },
     {
       id:3,
@@ -267,7 +267,7 @@ const page = () => {
     {
       id:4,
       title:"Note:",
-      desc:"This itinerary is customizable based on your preferences and time constraints. Please wear comfortable clothing and footwear suitable for walking and exploring historical sites.Don't forget to carry sunscreen, sunglasses, and a hat to protect yourself from the sun."
+      desc:"This itinerary is customizable based on your preferences and time constraints. Please wear comfortable clothing and footwear suitable for walking and exploring historical sites.Don&apos;t forget to carry sunscreen, sunglasses, and a hat to protect yourself from the sun."
     },
     {
       id:5,
@@ -331,23 +331,21 @@ const page = () => {
      mobileImage="/2daytour-m.webp" 
      
       />
-     <ContentPopup  headingcomp="Jaipur Tour Package for Two Days"
+     <ContentPopup  headingcomp="Unravel Jaipur&apos;s Magic – Espindo&apos;s Two-Day Escape"
           fullContent={<div className="container mx-auto w-[90%] text-xs sm:text-sm">
-            <p className="mt-2">Designed with your comfort in mind, our two-day tour ensures a relaxed pace, premium transportation, and personalized attention for families and travelers seeking convenience.
-Espindo&apos;s Jaipur tour package for families offers a seamless experience with well-maintained vehicles and thoughtful itineraries.
-This two-day tour package is perfect for capturing the essence of Jaipur&apos;s history and culture. Polite drivers and knowledgeable guides ensure a smooth and enjoyable journey, while the flexible route allows customization to suit your preferences. Ample breaks for refreshments and exploration add to the comfort, letting you fully embrace Jaipur&apos;s beauty.
-On the first day, begin your adventure with a smooth ride to Amer Fort in an air-conditioned car. Our professional drivers ensure a stress-free trip, allowing you to appreciate the scenic beauty of the Aravalli Hills.
-Explore the fort&apos;s royal courtyards and Sheesh Mahal while your guide shares fascinating tales of its history. Next, stop at the serene Jal Mahal, which is perfect for capturing photos of this enchanting palace floating on Man Sagar Lake.
-The journey continues with a visit to the City Palace, where you&apos;ll experience royal grandeur in its museums and courtyards. Jantar Mantar, an ancient observatory located nearby, is another highlight. Our guides help you understand its intriguing astronomical instruments.
-End your day at Nahargarh Fort, where you can enjoy a peaceful evening and a breathtaking sunset overlooking the city.
-On the second day, start with a relaxing stroll through City Park, a tranquil retreat perfect for unwinding. Your private car then takes you to World Trade Park, where you can shop, dine, or enjoy Jaipur&apos;s modern vibe.
-Afterward, visit the Albert Hall Museum to delve into Rajasthan&apos;s rich history and art. Our tour package ensures you have enough time to enjoy each attraction without feeling rushed.
-Conclude your trip at GT Mall, where you can shop for traditional handicrafts and souvenirs, leaving you with lasting memories of Jaipur. 
+            <p className="mt-2">For a deeper dive into the wonders of Jaipur, Espindo’s <strong>Jaipur 2-day itinerary</strong> offers a curated experience blending culture, history, and leisure.
+</p>
+<h2 className="font-bold sm:text-base text-sm mt-4">Day 1:</h2>
+<p className="mt-2">Begin with a scenic drive to the regal Amer Fort where your guide will weave a tapestry of interesting and fascinating tales of its history. Take some mind-blowing shots at the floating Jal Mahal, before heading off to the grand City Palace, and uncover its rich heritage through museums filled with royal artefacts and textiles.
+Add a touch of astronomy to your day by visiting Jantar Mantar, one of the ancient observatories that houses fabulous instruments. A warm and golden sunset ends your evening at the Nahargarh Fort, casting a magical hue over the city.
 
 </p>
+<h2 className="font-bold sm:text-base text-sm mt-4">Day 2:</h2>
+<p className="mt-2">Begin the day with a quiet walk through City Park, a great place to de-stress. Now, dive into Jaipur&apos;s modern feel at World Trade Park, a shopper&apos;s delight and a great place for eating and entertainment.
+Explore Rajasthan&apos;s history and art at the Albert Hall Museum and wrap your experiences there with visits to GT Mall, from where you can pick souvenirs and handicrafts.
+Espindo&apos;s Jaipur 1 day tour or two-day package guarantees a seamless journey, complete with air-conditioned transport, professional drivers, and guides who bring Jaipur’s stories to life. Book now for an adventure you’ll never forget!
 
-
-
+</p>
 </div>} />
 <TravelSection travelData={travelData} tourDetails={tourDetails} trips={trips} iconName={iconName} highlights={highlights}  sightseeingIconName={sightseeingIconName} sIncluded={sIncluded} sExcluded={sExcluded}/>
 

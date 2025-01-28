@@ -41,7 +41,7 @@ const page = () => {
 {
   id:5,
   icon:<RiUserVoiceFill />  ,
-  name:"Live guide: Hindi, German, Japanese, English, Italian, French, Spanish"
+  name:"Live guide: Hindi, German, Japanese, English, Italian, French, Spanish"
 },
 
   ];
@@ -49,7 +49,7 @@ const page = () => {
   const highlights=[
     {
       id:1,
-      para:"An action-packed private tour of Jaipur's top attractions"
+      para:"An action-packed private tour of Jaipur&apos;s top attractions"
     },
     {
       id:2,
@@ -61,7 +61,7 @@ const page = () => {
     },
     {
       id:4,
-      para:"Learn about the history of Jaipur and Rajasthan"
+      para:"Learn about the history of Jaipur and Rajasthan"
     },
   ];
 
@@ -162,7 +162,7 @@ const page = () => {
             id: 2,
             title: "Hawa Mahal",
             time:"9:00 AM:",
-            paraone: "One of Jaipur's most iconic landmarks, the Hawa Mahal or Palace of Winds is a stunning architectural masterpiece from the 18th century. Designed by Ustad Lal Chand, this magnificent structure is made with pink and red sandstone to blend in with the Pink City's color scheme. Its intricate design and grandeur make it a must-visit for tourists in Jaipur.",
+            paraone: "One of Jaipur&apos;s most iconic landmarks, the Hawa Mahal or Palace of Winds is a stunning architectural masterpiece from the 18th century. Designed by Ustad Lal Chand, this magnificent structure is made with pink and red sandstone to blend in with the Pink City&apos;s color scheme. Its intricate design and grandeur make it a must-visit for tourists in Jaipur.",
             
           },
           {
@@ -211,7 +211,7 @@ const page = () => {
             id: 9,
             title: "Royal Gaitor",
             time:"4:30 PM:",
-            paraone: "Another must-visit monument in Jaipur is the Royal Gaitor, a resting place for past rulers. This site features several Chhatris, or cenotaphs, dedicated to the Maharajas. It's a beautiful and historic spot that should not be missed on your trip to Jaipur."
+            paraone: "Another must-visit monument in Jaipur is the Royal Gaitor, a resting place for past rulers. This site features several Chhatris, or cenotaphs, dedicated to the Maharajas. It&apos;s a beautiful and historic spot that should not be missed on your trip to Jaipur."
           },
           {
             id: 10,
@@ -224,7 +224,7 @@ const page = () => {
     const tourDetails=[
       {
         id:1,
-        title:"What's included",
+        title:"What&apos;s included",
         lineone:"All Sightseeing & Transfers by Private A/C Car.",
         linetwo:"Private transportation with friendly driver.",
         linethree:"Fuel (Petrol/Diesel/Gasoline), Parking Charges, and all taxes.",
@@ -233,17 +233,17 @@ const page = () => {
       },
       {
         id:2,
-        title:"What's not included",
+        title:"What&apos;s not included",
         lineone:"Monuments Entrance Fees / Camera Fees",
         linetwo:"Meals & Other Expenses",
         linethree:"Air /Train / Bus Fare",
-        linefour:"Driver&apos;s and Guide's Tips",
+        linefour:"Driver&apos;s and Guide&apos;s Tips",
         linefive:"Entry/Admission - Hawa Mahal - Palace of Wind",
         linesix:"Entry/Admission - City Palace of Jaipur",
         lineseven:"Entry/Admission - Jantar Mantar - Jaipur",
         lineeight:"Entry/Admission - Albert Hall Museum",
         linenine:"Entry/Admission - Royal Gaitor Tumbas",
-        lineten:"Entry/Admission - Jal Mahal"
+        lineten:"Entry/Admission-Jal Mahal"
       },
       
     ];
@@ -256,7 +256,7 @@ const page = () => {
       },
       {
         id:2,
-        desc:"Learn about the history of Jaipur, a royal capital founded in 1727. Get a look at the city&apos;s trademark downtown and discover how it came to be painted pink. Visit Hawa Mahal, or Palace of Winds, with its beehive-shaped facade—once a purdah screen for Rajput women. See Jantar Mantar, a centuries-old astronomical observatory, and the City Palace, home to Rajasthan's royal family, before drop-off to your hotel after a full day of sightseeing.."
+        desc:"Learn about the history of Jaipur, a royal capital founded in 1727. Get a look at the city&apos;s trademark downtown and discover how it came to be painted pink. Visit Hawa Mahal, or Palace of Winds, with its beehive-shaped facade—once a purdah screen for Rajput women. See Jantar Mantar, a centuries-old astronomical observatory, and the City Palace, home to Rajasthan&apos;s royal family, before drop-off to your hotel after a full day of sightseeing.."
       },
 {
   id:3,
@@ -266,7 +266,7 @@ const page = () => {
 {
   id:4,
   title:"Note:",
-  desc:"This itinerary is customizable based on your preferences and time constraints. Please wear comfortable clothing and footwear suitable for walking and exploring historical sites.Don't forget to carry sunscreen, sunglasses, and a hat to protect yourself from the sun."
+  desc:"This itinerary is customizable based on your preferences and time constraints. Please wear comfortable clothing and footwear suitable for walking and exploring historical sites.Don&apos;t forget to carry sunscreen, sunglasses, and a hat to protect yourself from the sun."
 },
 {
   id:5,
@@ -331,16 +331,15 @@ const page = () => {
      
       />
         <ContentPopup  
-          headingcomp="Tailored Tours by Espindo: Jaipur One-Day Tour Package"
+          headingcomp="Unforgettable Jaipur Adventures with Espindo – One-Day and Two-Day Tour Packages"
           fullContent={<div className="container mx-auto w-[90%] text-xs sm:text-sm">
-            <p className="mt-2">Jaipur, popular as the Pink City, exudes a captivating cultural aura. If you have only a day to explore the city, there&apos;s no need to worry. Our travel agency offers meticulously curated tours tailored for a one-day trip in Jaipur.
-Our specially designed Jaipur one-day tour package is ideal for travelers seeking a fulfilling experience in a limited timeframe. Start your day with a visit to the magnificent Amer Fort, located atop a hill.
-This UNESCO World Heritage Site provides a glimpse into the royal Rajputana architecture. The Sheesh Mahal is a must-see, especially in the morning light. You can opt for an elephant ride for a touch of royal grandeur.
-Espindo&apos;s Jaipur one-day tour package by car ensures hassle-free travel and unmatched comfort. Enjoy the convenience of air-conditioned transport, essential in Jaipur&apos;s warm climate.
-This is the perfect opportunity to immerse yourself in the city&apos;s unique atmosphere. With the support of professional drivers and experienced guides, you can make the most of your day. Explore Jaipur&apos;s artistry by shopping for gemstones and vibrant textiles during your one-day tour.
-Visit Hawa Mahal, an architectural marvel built for royal women to observe city life while maintaining privacy. Head to a traditional Rajasthani restaurant and savor authentic dishes like Dal Baati Churma and Gatte ki Sabzi for lunch.
-Continue to the City Palace, which encapsulates Jaipur&apos;s royal heritage. Here, explore museums showcasing artifacts and textiles. Don&apos;t miss Jantar Mantar, another UNESCO World Heritage Site and a remarkable astronomical observatory.
-Conclude your day at Nahargarh Fort, where you can watch a mesmerizing sunset overlooking the entire city of Jaipur.
+            <h2 className="font-bold sm:text-base text-sm mt-4">Discover Jaipur in a Day – Espindo&apos;s Exclusive Tour</h2>
+            <p className="mt-2">Spare little time, but willing to witness the wonder of the Pink City? Espindo&apos;s Jaipur 1 day sightseeing package is carefully designed to give you a wonderful preview of Jaipur&apos;s culture and heritage.
+Start the day at Amer Fort, a World Heritage Site. Gawk at its imperial courtyards and glisten before Sheesh Mahal when dressed in sparks in the morning light. Feeling like royalty? Catch the elephant ride to the fort entrance-an experience fit for a fairy tale.
+See Jaipur&apos;s artistry in the colorful fabrics and lustrous gemstones on sale before visiting the Palace of Winds, Hawa Mahal, with intricate windows through which royal women could look down without being seen on the streets.
+Refresh at a traditional Rajasthani lunch that includes Dal Baati Churma and Gatte ki Sabzi. Then visit the grand City Palace that houses some fabulous museums and artefacts of royal dynasties. A visit to the ancient astronomical wonder of Jantar Mantar makes your adventure rather unique.
+Have a breathtaking sunset at Nahargarh Fort with panoramic views of Jaipur at its end, and this is what Espindo&apos;s <strong>Jaipur one day tour package by bus or car</strong> ensures: comfort, convenience, and forever memories.
+
 </p>
 
 

@@ -81,7 +81,7 @@ const DestinationSection = () => {
       </div>
 
       {isFormVisible && (
-        <div className="form-div fixed inset-0 w-[100%] opacity-100 transition-opacity duration-1000 ease-in-out">
+        <div className="form-div fixed inset-0 w-[100%] opacity-100 transition-opacity duration-1000 ease-in-out z-[99999]">
           <div className="relative inset-0 flex justify-center items-center w-[100%] h-[100%] bg-[rgb(0_0_0_/37%)]">
             <form className="relative bg-white p-6 rounded-lg shadow-lg z-70 sm:w-[55%] md:w-[55%] lg:[55%] w-[90%]">
               <div className="lg:pb-4 pb-2">
