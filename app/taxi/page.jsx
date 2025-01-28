@@ -188,24 +188,24 @@ const page = () => {
       />
        
        <ContentPopup 
-       headingcomp="Ready to experience that thrill of the wild? With these tips, your Leopard Safari in Jaipur would become unforgettable!"
+       headingcomp="Discover Jaipur in Comfort with Espindo&apos;s Jaipur Sightseeing Taxi"
        fullContent={ <div className="container mx-auto w-[90%] text-xs sm:text-sm">
         <p className="mt-2">Welcome to Jaipur, the Pink City. Every place that has historic, cultural significance, and even beauty is crowded with that. Now, your luxuriously fantastic journey to see some of the great things about the city is ensured through the extremely comfortable taxi services in Jaipur by Espindo.
 Imagine gliding through the colorful streets of Jaipur with our professional and friendly drivers who navigate but elevate your experience. Solo or with friends and family, Jaipur sightseeing taxi will guarantee a smooth ride, safe ride, and memorable ride. Back, relax, and let&apos;s bring the heart of Jaipur closer to you.
 Get ready to find the inner soul of a city. From the majestic Amer Fort to the iconic Hawa Mahal, our dependable <strong>Jaipur sightseeing taxi</strong> service will take you through all the must-visit places and some of the hidden gems. Let each moment be magic and every memory timeless.
 At Espindo, we&apos;re here to make your travel as stress-free and seamless as possible so that you can soak in the beauty of Jaipur. Book your <strong>Jaipur sightseeing taxi</strong> today and let us redefine the way you discover this enchanting city!
 </p>
-<h2 className="font-bold sm:text-base text-sm">Sunrise View in Jaipur</h2>
+<h2 className="font-bold sm:text-base text-sm mt-4">Sunrise View in Jaipur</h2>
 <p className="mt-2"> Nahargarh Fort is the ideal spot to enjoy a sunrise in Jaipur. Built on the Aravalli hills, it offers breathtaking views and a serene environment, making it the perfect way to start your day. Another great option is Jal Mahal, located in Man Sagar Lake.</p>
 <p className="mt-2">Visiting these places early ensures a peaceful experience, and our <strong>Jaipur sightseeing taxi</strong> service ensures you arrive on time. You can rely on us for a memorable sunrise experience in Jaipur.</p>
 <h2 className="font-bold sm:text-base text-sm mt-4">Start Your Day with a Mesmerizing Sunrise in Jaipur</h2>
 <p className="mt-2">Imagine the sun rising over the city of Jaipur, the sun bathing beautiful sceneries from this place within golden rays. To witness a real sunrise experience, visit the top of Aravalli Hills at Nahargarh Fort. It is magical because of the peaceful ambiance and the bird&apos;s eye view that it has. Another perfect spot to start the morning is Jal Mahal located on the calm water of Man Sagar Lake. With Espindo&apos;s Jaipur sightseeing taxi, we will ensure that you reach the serene spots just in time to capture the magic.</p>
 
-<h2 className="font-bold sm:text-base text-sm">End Your Day with a Magical Sunset in Jaipur</h2>
+<h2 className="font-bold sm:text-base text-sm mt-4">End Your Day with a Magical Sunset in Jaipur</h2>
 <p className="mt-2">By sundown, Jaipur turns into heaven, with sunset images that are awe-inspiring. It is a heaven for photographers and travelers who desire quiet moments and like golden hues on monuments. To get the most magical view, go to Amer Fort, whose golden rays paint the majestic walls of the monument in a truly spellbinding light.
 Be it the dawn or the dusk, Espindo makes each and every moment of your stay in Jaipur memorable. Book now to experience this captivating city in all its splendor!
 </p>
-<h2 className="font-bold sm:text-base text-sm">Jaipur to Khatu Shyam Ji Taxi Your Gateway to a Divine Journey</h2>
+<h2 className="font-bold sm:text-base text-sm mt-4">Jaipur to Khatu Shyam Ji Taxi Your Gateway to a Divine Journey</h2>
 <p className="mt-2">Want to dream of a serene getaway to the revered Khatu Shyam Ji temple? Espindo&apos;s <strong>Jaipur to Khatu Shyam Ji taxi</strong> service makes it a hassle-free, fun adventure. Famous for its peaceful environment and powerful spiritual significance, Khatu Shyam Ji is an unmissed destination when a person is exploring Rajasthan.
 It is more than a ride into town. It will be a seamless experience on our taxi service, thanks to the knowledge of our cab drivers and the best routes to take for scenic shortcuts or less traveled roads. Say goodbye to any public transport schedules and enjoy picking your desired pickup time.
 Do not be worried if you travel with your family; we are here to welcome them all. The best thing is that our all cars and other vehicles keep the same status and so keep well maintenance such that you need not fear while getting safe space in addition to this safety as it keeps plenty of seats. All in all, imagine golden hues of desert attraction rural villages zest as such awareness is anticipated whilst one&apos;s divine destination awaits finally.

@@ -76,7 +76,7 @@ export default function Home() {
     <p>Get ready to uncover the magic of Jaipur with Espindo, your ultimate Jaipur travel agent! Picture yourself strolling through the Pink City&apos;s vibrant streets, where royal palaces meet bustling bazaars, and every corner tells a story of grandeur and culture.
 With Espindo, your adventure is more than just a trip it&apos;s an unforgettable experience. From the awe-inspiring forts to hidden treasures off the beaten path, we ensure you see it all. Craving a taste of royalty? Indulge in the mouthwatering Dal Bati Churma and other authentic Rajasthani delicacies that will leave you wanting more.
 Whether you&apos;re marveling at famous landmarks or exploring <strong>tourist places near Jaipur Rajasthan,</strong>Espindo takes care of every detail to make your journey effortless and extraordinary. Trust us to turn your Jaipur dream into a reality filled with wonder, flavor, and unforgettable memories!.</p>
-<h2 className="font-bold mt-4 sm:text-base text-sm">How to Reach Jaipur: Your Gateway to the Pink City</h2>
+<h2 className="font-bold my-2 sm:text-base text-sm">How to Reach Jaipur: Your Gateway to the Pink City</h2>
 <p>Get ready to uncover the magic of Jaipur with Espindo, your ultimate Jaipur travel agent! Picture yourself strolling through the Pink City&apos;s vibrant streets, where royal palaces meet bustling bazaars, and every corner tells a story of grandeur and culture. With Espindo, your adventure is more than just a trip it&apos;s an unforgettable experience. From the awe-inspiring forts to hidden treasures off the beaten path, we ensure you see it all. Craving a taste of royalty? Indulge in the mouthwatering Dal Bati Churma and other authentic Rajasthani delicacies that will leave you wanting more. Whether you&apos;re marveling at famous landmarks or exploring tourist places near Jaipur Rajasthan, Espindo takes care of every detail to make your journey effortless and extraordinary. Trust us to turn your Jaipur dream into a reality filled with wonder, flavor, and unforgettable memories!.</p>
 <p>Planning your trip to Jaipur? Reaching this vibrant city is as easy as it is exciting! Whether you&apos;re flying in or hitting the road, Espindo&apos;s Jaipur tour and travels services ensure your journey is smooth and memorable. Here&apos;s how you can get to Jaipur:</p>
 <ul>
@@ -116,7 +116,7 @@ Your Jaipur journey deserves more than sightseeing  it&apos;s time to add a dash
 
 <ul>
 <h2 className="font-bold mt-4 sm:text-base text-sm">Jaipur&apos;s Must-Visit Gems: Unveiling the Magic of the Pink City</h2>
-<p className="font-bold mt-4 sm:text-base text-sm">Discover the best of Jaipur with Espindo, your trusted <strong>tour agency in Jaipur,</strong> as we take you on an unforgettable journey through these iconic attractions:</p>
+<p className="mt-2">Discover the best of Jaipur with Espindo, your trusted <strong>tour agency in Jaipur,</strong> as we take you on an unforgettable journey through these iconic attractions:</p>
  
   <li className="mt-2"><h3 className="font-bold">City Palace: Where Royals Once Lived</h3>Immerse yourself in the grandeur of Rajput architecture and experience the royal essence of Jaipur.</li>
   <li className="mt-2"><h3 className="font-bold">Amber Fort: Step Into a World of Majesty</h3> A UNESCO World Heritage site, Amer Fort dazzles with its Sheesh Mahal and spellbinding light-and-sound shows.
@@ -135,7 +135,7 @@ Your Jaipur journey deserves more than sightseeing  it&apos;s time to add a dash
   </li>
   <li className="mt-2"><h3 className="font-bold"> City Park: Tranquility in the Heart of Jaipur</h3> Relax, unwind, and enjoy a peaceful retreat amidst Jaipur&quot;s bustling vibe.</li>
 </ul>
-<p className="font-bold mt-4 sm:text-base text-sm">Whether you&apos;re exploring on a Jaipur one day tour or a longer escapade, Espindo ensures your journey is packed with unforgettable moments and hidden treasures!</p>
+<p className="mt-2">Whether you&apos;re exploring on a Jaipur one day tour or a longer escapade, Espindo ensures your journey is packed with unforgettable moments and hidden treasures!</p>
 <h2 className="font-bold mt-4 sm:text-base text-sm">Where to Shop in Jaipur - Jaipur&apos;s Shopping Wonderland </h2>
 <p className="mt-2">Step into the colorful bazaars of Jaipur, where each corner bursts into colors, cultures, and crafts. Nicknamed as the Gemstone Capital of India, the Pink City is an eldorado for shopaholics and collectors. Let Espindo upgrade your Jaipur shopping tour with the best experiences this city has in store for you.
 </p>
