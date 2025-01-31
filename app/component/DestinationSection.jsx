@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from 'next/image';
+import EnquiryForm from "./EnquiryForm";
 const DestinationSection = () => {
   const [isFormVisible, setFormVisible] = useState(false);
 
@@ -68,19 +69,22 @@ const DestinationSection = () => {
               </button>
             </div>
             <div className="pt-2 text-center">
-              <button
+              {/* <button
                 onClick={() => setFormVisible(!isFormVisible)}
                 className="enq-btn bg-[#f4839d] pt-1 pb-1 pr-2 pl-2 text-sm text-white inline-block
 "
               >
                 Enquiry now
-              </button>
+              </button> */}
+
+<EnquiryForm/>
             </div>
           </div>
         ))}
       </div>
-
-      {isFormVisible && (
+      
+      {/* {isFormVisible && (
+       
         <div className="form-div fixed inset-0 w-[100%] opacity-100 transition-opacity duration-1000 ease-in-out z-[99999]">
           <div className="relative inset-0 flex justify-center items-center w-[100%] h-[100%] bg-[rgb(0_0_0_/37%)]">
             <form className="relative bg-white p-6 rounded-lg shadow-lg z-70 sm:w-[55%] md:w-[55%] lg:[55%] w-[90%]">
@@ -159,7 +163,7 @@ const DestinationSection = () => {
             </form>
           </div>
         </div>
-      )}
+      )} */}
     </section>
   );
 };

@@ -25,6 +25,9 @@ export default function RootLayout({ children }) {
       <head>
         {/* Add your favicon link */}
         <meta property="og:image" content="https://www.espindotourandtravels.com/espindo-new-logo.png" />
+        <meta property="og:title" content="Espindo Tour and Travels" />
+        <meta property="og:description" content="Best Tour and Travels Agency" />
+        <meta property="og:url" content="https://www.espindotourandtravels.com" />
         <link rel="icon" href="/espindo-new-logo.png" />
        
       </head>

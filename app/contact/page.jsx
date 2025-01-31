@@ -2,24 +2,92 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import SafariSection from "../component/SafariSection";
-
+import { AiOutlineClose } from "react-icons/ai";
 const Page = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
+const [isLoading,setIsLoading]=useState(false)
+const [formData,setFormData]=useState({
+  name:"",
+  email:"",
+  phone:"",
+  message:""
+})
+const [errors,setErrors]=useState({});
+
+
+const validate=()=>{
+  const newErrors={};
+  if(!formData.name.trim()) newErrors.name="Name is required";
+
+  if(!formData.email.trim() || !/^[\w.-]+@([\w]+\.)+[\w]{2,4}$/.test(formData.email))
+    newErrors.email="Valid email is required";
+
+  if(!formData.phone.trim()|| !/^\d{10}$/.test(formData.phone))
+    newErrors.phone="Valid 10-digit phone number is required";
+
+
+
+if (!formData.message.trim()) newErrors.message = "Message is required";
+
+return newErrors;
+
+}
+
+const handleSubmit=async (e)=>{
+e.preventDefault();
+const newErrors=validate();
+if(Object.keys(newErrors).length===0){
+  setIsLoading(true)
+ try{
+  const response=await fetch("api/sendMail",{
+    method :"POST",
+    headers:{
+      "Content-Type":"application/json",
+    },
+    body:JSON.stringify(formData)
   });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
-  };
+  if(response.ok){
+    setFormData({
+      name:"",
+      email:"",
+      phone:"",
+      message:""
+    })
+  }else{
+    console.error("Error submitting form:",await response.json());   
+  }
+ } catch(error){
+  console.error("Error:",error);
+ }finally{
+  setIsLoading(false)
+ }
+}else{
+  setErrors(newErrors)
+}
+}
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(formData);
-    // Handle form submission
-  };
+const handleChange=(e)=>{
+  const {name,value}=e.target;
+  setFormData({...formData,[name]:value});
+  setErrors({...errors,[name]:""});
+  }
+
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // });
+
+  // const handleChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setFormData((prev) => ({ ...prev, [name]: value }));
+  // };
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   console.log(formData);
+  //   // Handle form submission
+  // };
 
   return (
     <>
@@ -42,7 +110,62 @@ const Page = () => {
             />
           </div>
           <div className="lg:w-1/2">
-            <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-md">
+           <form 
+                       className="relative bg-white p-6 rounded-lg shadow-lg z-70 w-[90%] "
+                       onSubmit={handleSubmit}
+                      >
+                     
+                      <div className="lg:mb-5 lg:flex lg:justify-between">
+                          <input type="text" 
+                          placeholder="Your Name"
+                          name="name"
+                          value={formData.name}
+                          onChange={handleChange}
+                          className={`lg:mb-0 mb-2 lg:w-[42%] p-2 text-gray-900 border  rounded text-[10px] sm:text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500  w-full mb-0 ${
+                            errors.name ? "border-red-500" : "border-gray-300"}`}
+                              />
+                            {errors.name && (<p className="text-red-500 text-[10px]">{errors.name}</p>)}
+                            
+                          <input type="email" placeholder="Your Email"
+                          name="email"
+                          value={formData.email}
+                          onChange={handleChange}
+                              className={`lg:mb-0 mb-2 lg:w-[55%] p-2 text-gray-900 border border-gray-300 rounded text-[10px] sm:text-sm focus:ring-blue-500 focus:border-blue-500 focus:outline-none focus:ring-1 w-full mb-0 ${errors.email ? "border-red-500" : "border-gray-300"}`}/>
+                              {errors.email && (<p className="text-red-500 text-[10px]">{errors.email}</p>)}
+                      </div>
+          
+                      <div className="lg:mb-5  md:flex md:justify-between mb-2">
+                          <input type="tel" placeholder="Phone"
+                           name="phone"
+                           value={formData.phone}
+                           onChange={handleChange}
+                              className={`lg:mb-0 mb-2 md:w-[100%] w-full sm:mb-2 mb-0  p-2 text-gray-900 border border-gray-300 rounded-lg  text-[10px] sm:text-sm focus:ring-blue-500 focus:border-blue-500 focus:outline-none focus:ring-1 ${ errors.phone ? "border-red-500" : "border-gray-300"}`}/>
+                              {errors.phone && (<p className="text-red-500 text-[10px]">{errors.phone}</p>)}
+          
+                          
+                      </div>
+          
+                      <div className="lg:mb-5 mb-2">
+                          <textarea rows="3"
+                           name="message"
+                           value={formData.message}
+                           onChange={handleChange}
+                              className={`block w-full p-2 text-gray-900 border border-gray-300 rounded-lg text-[10px] sm:text-sm focus:ring-blue-500 focus:border-blue-500 focus:outline-none focus:ring-1 resize-none"
+                              placeholder=" Message ${errors.message ?  "border-red-500" : "border-gray-300"}`}></textarea>
+                              {errors.message &&( <p className="text-red-500 text-[10px]">{errors.message}</p>)}
+                      </div>
+          
+                      <div className="submit w-full sm:flex sm:items-center sm:justify-between mb-3">
+                         
+                          <div className="sm:w-[35%] w-[98%] sm:mt-0 mt-2"><button className={`w-full  bg-[#f4839d] rounded  py-2 text-[10px] sm:text-sm text-white ${isLoading? "opacity-50 cursor-not-allowed" : ""}`}
+                          disabled={isLoading}
+                          > {isLoading?"Sending":"Send me Details"}
+                          </button></div>
+                          </div>
+          
+                      
+                  </form>
+            {/* <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-md">
               <div className="mb-4">
                 <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">
                   Your Name
@@ -94,7 +217,7 @@ const Page = () => {
               >
                 Send Message
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
         <div className="mt-12 flex justify-around flex-wrap">
