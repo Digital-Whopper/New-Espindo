@@ -38,7 +38,7 @@ const newErrors=validate();
 if(Object.keys(newErrors).length===0){
   setIsLoading(true)
  try{
-  const response=await fetch("api/sendMail",{
+  const response=await fetch("/api/enquiry",{
     method :"POST",
     headers:{
       "Content-Type":"application/json",
@@ -115,13 +115,13 @@ const handleChange=(e)=>{
                        onSubmit={handleSubmit}
                       >
                      
-                      <div className="lg:mb-5 lg:flex lg:justify-between">
+                      <div className="lg:mb-5 lg:flex lg:justify-between flex-wrap">
                           <input type="text" 
                           placeholder="Your Name"
                           name="name"
                           value={formData.name}
                           onChange={handleChange}
-                          className={`lg:mb-0 mb-2 lg:w-[42%] p-2 text-gray-900 border  rounded text-[10px] sm:text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500  w-full mb-0 ${
+                          className={`lg:mb-5 mb-2 lg:w-[100%] p-2 text-gray-900 border  rounded text-[10px] sm:text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500  w-full mb-0 ${
                             errors.name ? "border-red-500" : "border-gray-300"}`}
                               />
                             {errors.name && (<p className="text-red-500 text-[10px]">{errors.name}</p>)}
@@ -130,7 +130,7 @@ const handleChange=(e)=>{
                           name="email"
                           value={formData.email}
                           onChange={handleChange}
-                              className={`lg:mb-0 mb-2 lg:w-[55%] p-2 text-gray-900 border border-gray-300 rounded text-[10px] sm:text-sm focus:ring-blue-500 focus:border-blue-500 focus:outline-none focus:ring-1 w-full mb-0 ${errors.email ? "border-red-500" : "border-gray-300"}`}/>
+                              className={`lg:mb-0 mb-2 lg:w-[100%] p-2 text-gray-900 border border-gray-300 rounded text-[10px] sm:text-sm focus:ring-blue-500 focus:border-blue-500 focus:outline-none focus:ring-1 w-full mb-0 ${errors.email ? "border-red-500" : "border-gray-300"}`}/>
                               {errors.email && (<p className="text-red-500 text-[10px]">{errors.email}</p>)}
                       </div>
           

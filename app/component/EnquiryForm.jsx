@@ -42,7 +42,7 @@ const newErrors=validate();
 if(Object.keys(newErrors).length===0){
   setIsLoading(true)
  try{
-  const response=await fetch("api/sendMail",{
+  const response=await fetch("/api/enquiry",{
     method :"POST",
     headers:{
       "Content-Type":"application/json",
