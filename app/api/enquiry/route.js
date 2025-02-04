@@ -12,29 +12,21 @@ export async function POST(req) {
 
         // Set up Nodemailer transporter
         const transporter = nodemailer.createTransport({
-            host: "smtp.gmail.com",  // Gmail SMTP server
-            port: 587, // Use 465 for SSL, 587 for TLS
-            secure: false, // Must be false for port 587
+            service: "Gmail",
             auth: {
                 user: process.env.EMAIL_USER,
                 pass: process.env.EMAIL_PASS,
             },
+            secure: true,
         });
 
-        // Email message configuration
         const mailOptions = {
-            from: `"Espindo Tours" <${process.env.EMAIL_USER}>`,
+            from: process.env.EMAIL_USER,
             to: "espindotour@gmail.com",
             subject: "New Enquiry",
-            text: `Name: ${name}
-Email: ${email}
-Phone: ${phone}
-Date: ${date || "N/A"}
-Travellers: ${travellers || "N/A"}
-Message: ${message}`,
+            text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nDate: ${date || "N/A"}\nTravellers: ${travellers || "N/A"}\nMessage: ${message}`,
         };
 
-        // Send email
         await transporter.sendMail(mailOptions);
 
         return NextResponse.json({ message: "Email sent successfully!" }, { status: 200 });
