@@ -2,14 +2,16 @@ import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 import dotenv from "dotenv";
 
-dotenv.config(); // Manually load .env file
+dotenv.config();
 
 export async function POST(req) {
     try {
-        console.log("EMAIL_USER:", process.env.EMAIL_USER);
-        console.log("EMAIL_PASS:", process.env.EMAIL_PASS);
+        console.log("EMAIL_USER:", process.env.EMAIL_USER ?? "Not Loaded");
+        console.log("EMAIL_PASS:", process.env.EMAIL_PASS ? "Loaded" : "Not Loaded");
 
         const { name, email, phone, date, travellers, message } = await req.json();
+
+        console.log("Form Data:", { name, email, phone, date, travellers, message });
 
         if (!name || !email || !phone || !message) {
             return NextResponse.json({ message: "All fields are required" }, { status: 400 });
@@ -24,6 +26,9 @@ export async function POST(req) {
                 pass: process.env.EMAIL_PASS,
             },
         });
+
+        // Verify SMTP connection before sending email
+        await transporter.verify();
 
         await transporter.sendMail({
             from: `"Espindo Tours" <${process.env.EMAIL_USER}>`,
