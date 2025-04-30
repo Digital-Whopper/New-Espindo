@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
       <head>
         {/* Add your favicon link */}
         <meta property="og:image" content="https://www.espindotourandtravels.com/share-logo.png" />
-        <meta property="og:title" content="Espindo Tour and Travels" />
+        <meta property="og:title" content="Get ready to uncover the magic of Jaipur with Espindo, your ultimate Jaipur travel agent! Picture yourself strolling through the Pink City's vibrant streets." />
         <meta property="og:description" content="Best Tour and Travels Agency" />
         <meta property="og:url" content="https://www.espindotourandtravels.com" />
         <link rel="icon" href="/share-logo.png" />
@@ -34,9 +34,17 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header />
+
+<div className="flex flex-col items-center justify-center min-h-screen bg-white text-center px-4">
+      <h1 className="text-[150px] font-bold text-gray-800 leading-none">404</h1>
+      <h2 className="text-2xl font-semibold text-gray-700 mb-2">Not Found</h2>
+      <p className="text-gray-500 text-lg">
+        The resource requested could not be found on this server!
+      </p>
+    </div>
+        {/* <Header />
         {children}
-        <Footer />
+        <Footer /> */}
       </body>
     </html>
   );
