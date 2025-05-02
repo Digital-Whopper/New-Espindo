@@ -35,16 +35,16 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
 
-<div className="flex flex-col items-center justify-center min-h-screen bg-white text-center px-4">
+{/* <div className="flex flex-col items-center justify-center min-h-screen bg-white text-center px-4">
       <h1 className="text-[150px] font-bold text-gray-800 leading-none">404</h1>
       <h2 className="text-2xl font-semibold text-gray-700 mb-2">Not Found</h2>
       <p className="text-gray-500 text-lg">
         The resource requested could not be found on this server!
       </p>
-    </div>
-        {/* <Header />
+    </div> */}
+        <Header />
         {children}
-        <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
