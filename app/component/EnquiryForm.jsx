@@ -42,7 +42,7 @@ const newErrors=validate();
 if(Object.keys(newErrors).length===0){
   setIsLoading(true)
  try{
-  const response=await fetch("/api/enquiry/",{
+  const response=await fetch(`/api/enquiry/${bid}`,{
     method :"POST",
     headers:{
       "Content-Type":"application/json",
@@ -183,9 +183,3 @@ const handleChange=(e)=>{
     )
 }
 export default EnquiryForm;
-
-
-
-
-
-

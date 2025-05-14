@@ -3,18 +3,27 @@ import React from "react";
 import WhatsAppButton from "./WhatsAppButton";
 import Link from "next/link";
 import FloatingCallButton from "./FloatingCallButton";
-
+import Image from "next/image";
 const Footer = () => {
   const placesToVisit = ["leopardsafari", "onedaytour", "twodaytour"];
   const placesToVisits = ["Leopard safari", "One Day Tour", "Two Day Tour"];
   const customerServices = ["taxi", "tour", "contact"];
 
   return (
-    <div className="flex bg-[#f4839e] w-full lg:text-left md:text-center sm:text-center text-center pt-10 pb-10">
+    <div className="bg-[#f4839e] pt-10 pb-10">
+        <div className="flex w-full lg:text-left md:text-center sm:text-center text-center ">
       <div className="w-full lg:w-4/5 mx-auto flex flex-wrap">
         {/* Logo Section */}
         <div className="w-full lg:w-1/4 pl-2">
-          <h2 className="text-white font-bold text-5xl mt-6">ESPINDO</h2>
+          <h2 className="text-white font-bold text-5xl mt-6">
+
+<span>
+   <Link href="/" className="text-2xl font-bold">
+                        <Image src="/white-logo.png" alt="Logo" width={160} height={40} quality={75} priority={true} />
+                    </Link>
+</span>
+
+          </h2>
         </div>
 
         {/* Places to Visit Section */}
@@ -35,6 +44,8 @@ const Footer = () => {
         </div>
       </div>
  <FloatingCallButton/>
+   </div>
+ <a className="digital-foot text-white w-100 text-center flex justify-center" href="https://digitalwhopper.com/"> Designed &amp; Developed by Digital Whopper </a>
     </div>
   );
 };
