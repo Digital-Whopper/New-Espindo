@@ -18,8 +18,9 @@ const Footer = () => {
           <h2 className="text-white font-bold text-5xl mt-6">
 
 <span>
-   <Link href="/" className="text-2xl font-bold">
-                        <Image src="/white-logo.png" alt="Logo" width={160} height={40} quality={75} priority={true} />
+   <Link href="/" className="text-2xl font-bold ">
+                        <Image className="mx-auto sm:mx-auto lg:mx-0" src="/white-logo.png" 
+                        alt="Logo" width={160} height={40} quality={75} priority={true} />
                     </Link>
 </span>
 
